@@ -1,0 +1,23 @@
+{
+  "name": "shows-tonight-sources",
+  "version": "0.0.0",
+  "description": "read sources for shows tonight",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "keywords": [
+    "shows",
+    "tonight",
+    "sources"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "request": "~2.36.0",
+    "cheerio": "~0.16.0",
+    "queue-async": "~1.0.7",
+    "moment": "~2.6.0"
+  }
+}
