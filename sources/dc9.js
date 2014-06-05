@@ -73,6 +73,15 @@ function parseShowBody(body) {
         minage = 21;
     }
 
+    var tickets = null;
+
+    $('.showinfo a').each(function(i, elem) {
+        var href = $(elem).attr('href');
+        if (href.match(/ticketfly/g)) {
+            tickets = href;
+        }
+    });
+
     times = times.map(function(time) {
         var rmday = date.replace(/^(\w+)\s/, '').trim();
         return {
@@ -88,6 +97,7 @@ function parseShowBody(body) {
         prices: parsePrices(prices),
         date: date,
         minage: minage,
+        tickets: tickets,
         venue_id: VENUEID
     };
 }
@@ -124,12 +134,12 @@ function parsePrices(str) {
             return [{
                 price: parseFloat(price[1]),
                 type: door ? 'door' : 'unknown'
-            }]
+            }];
         } else {
             return [{
                 price: str,
                 type: 'unknown'
-            }]
+            }];
         }
     }
 }
