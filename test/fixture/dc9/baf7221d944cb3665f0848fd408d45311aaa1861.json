@@ -12,6 +12,12 @@
     }
   ],
   "title": "Bear Hands [EARLY SHOW]",
+  "prices": [
+    {
+      "price": 14,
+      "type": "unknown"
+    }
+  ],
   "date": "SAT JUN 21",
   "venue_id": "dc9"
 }

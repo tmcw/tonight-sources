@@ -12,6 +12,16 @@
     }
   ],
   "title": "A Sunny Day In Glasgow",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "SUN JULY 6",
   "venue_id": "dc9"
 }

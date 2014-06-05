@@ -12,6 +12,12 @@
     }
   ],
   "title": "Zak Waters (CANCELLED)",
+  "prices": [
+    {
+      "price": "CANCELLED",
+      "type": "unknown"
+    }
+  ],
   "date": "FRI JUN 27",
   "venue_id": "dc9"
 }

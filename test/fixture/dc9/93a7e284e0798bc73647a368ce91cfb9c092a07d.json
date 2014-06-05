@@ -12,6 +12,16 @@
     }
   ],
   "title": "The Fresh & Onlys",
+  "prices": [
+    {
+      "price": 12,
+      "type": "advance"
+    },
+    {
+      "price": 14,
+      "type": "door"
+    }
+  ],
   "date": "THUR JULY 24",
   "venue_id": "dc9"
 }

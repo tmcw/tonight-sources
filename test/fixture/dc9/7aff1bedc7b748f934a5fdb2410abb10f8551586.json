@@ -12,6 +12,16 @@
     }
   ],
   "title": "Curtis Harding",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 12,
+      "type": "door"
+    }
+  ],
   "date": "THU JUN 12",
   "venue_id": "dc9"
 }

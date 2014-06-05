@@ -27,6 +27,16 @@
     }
   ],
   "title": "SPOONBOY (RECORD RELEASE SHOW) [EARLY SHOW]",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "FRI JUN 6",
   "venue_id": "dc9"
 }

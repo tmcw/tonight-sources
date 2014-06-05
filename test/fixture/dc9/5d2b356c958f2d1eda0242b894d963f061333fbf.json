@@ -12,6 +12,16 @@
     }
   ],
   "title": "Lowland Hum [EARLY SHOW]",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 12,
+      "type": "door"
+    }
+  ],
   "date": "FRI JUN 20",
   "venue_id": "dc9"
 }

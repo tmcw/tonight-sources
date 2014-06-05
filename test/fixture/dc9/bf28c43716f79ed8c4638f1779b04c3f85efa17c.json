@@ -12,6 +12,16 @@
     }
   ],
   "title": "Tiny Ruins",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 12,
+      "type": "door"
+    }
+  ],
   "date": "THU AUG 7",
   "venue_id": "dc9"
 }

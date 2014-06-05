@@ -12,6 +12,16 @@
     }
   ],
   "title": "Ratking",
+  "prices": [
+    {
+      "price": 12,
+      "type": "advance"
+    },
+    {
+      "price": 12,
+      "type": "door"
+    }
+  ],
   "date": "TUE JUN 10",
   "venue_id": "dc9"
 }

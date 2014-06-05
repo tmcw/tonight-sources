@@ -12,6 +12,16 @@
     }
   ],
   "title": "Honeyblood",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "WED JULY 30",
   "venue_id": "dc9"
 }

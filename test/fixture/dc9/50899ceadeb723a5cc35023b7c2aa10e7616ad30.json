@@ -27,6 +27,12 @@
     }
   ],
   "title": "Blue Pinto",
+  "prices": [
+    {
+      "price": 8,
+      "type": "unknown"
+    }
+  ],
   "date": "THUR JUNE 5",
   "venue_id": "dc9"
 }

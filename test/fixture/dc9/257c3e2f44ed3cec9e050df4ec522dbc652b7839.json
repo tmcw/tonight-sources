@@ -12,6 +12,16 @@
     }
   ],
   "title": "Saint Rich",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "SUN JULY 27",
   "venue_id": "dc9"
 }

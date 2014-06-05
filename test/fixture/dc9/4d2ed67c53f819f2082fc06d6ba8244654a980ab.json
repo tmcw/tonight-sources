@@ -12,6 +12,16 @@
     }
   ],
   "title": "Jacco Gardner",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 12,
+      "type": "door"
+    }
+  ],
   "date": "WED AUG 20",
   "venue_id": "dc9"
 }

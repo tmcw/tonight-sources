@@ -63,6 +63,8 @@ function parseShowBody(body) {
         times.push(time);
     });
 
+    var prices = $('.showinfo h3').text().trim();
+
     times = times.map(function(time) {
         var rmday = date.replace(/^(\w+)\s/, '').trim();
         return {
@@ -75,9 +77,52 @@ function parseShowBody(body) {
     return {
         times: times,
         title: title,
+        prices: parsePrices(prices),
         date: date,
         venue_id: VENUEID
     };
+}
+
+module.exports.parsePrices = parsePrices;
+
+function parsePrices(str) {
+    var abbreviations = {
+        adv: 'advance',
+        dos: 'door'
+    };
+    if (str.match(/free/i)) {
+        return [{
+            price: 0,
+            type: 'any'
+        }];
+    }
+    try {
+        var chunked = str.split(/\s+/).map(function(chunk) {
+            var match = chunk.match(/\$([\d\.]+)/);
+            if (!match) throw new Error('could not parse "' + str + '"');
+            var price = parseFloat(match[1]);
+            var type = chunk.split('/')[1].trim();
+            return {
+                price: price,
+                type: abbreviations[type]
+            };
+        });
+        return chunked;
+    } catch(e) {
+        var price = str.match(/\$([\d\.]+)/);
+        if (price) {
+            var door = str.match(/door/i);
+            return [{
+                price: parseFloat(price[1]),
+                type: door ? 'door' : 'unknown'
+            }]
+        } else {
+            return [{
+                price: str,
+                type: 'unknown'
+            }]
+        }
+    }
 }
 
 function parseShow(show) {

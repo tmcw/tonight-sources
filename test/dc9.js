@@ -22,3 +22,29 @@ test('dc9 parseShowBody', function(t) {
     });
     t.end();
 });
+
+test('dc9 parsePrices', function(t) {
+    t.deepEqual(dc9.parsePrices('$10/adv $10/dos'), [
+        {
+            type: 'advance',
+            price: 10
+        },
+        {
+            type: 'door',
+            price: 10
+        }
+    ]);
+    t.deepEqual(dc9.parsePrices('$10'), [
+        {
+            type: 'unknown',
+            price: 10
+        }
+    ]);
+    t.deepEqual(dc9.parsePrices('FREE'), [
+        {
+            type: 'any',
+            price: 0
+        }
+    ]);
+    t.end();
+});

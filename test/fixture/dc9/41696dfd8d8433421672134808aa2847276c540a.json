@@ -12,6 +12,12 @@
     }
   ],
   "title": "Walk The Plank",
+  "prices": [
+    {
+      "price": 8,
+      "type": "door"
+    }
+  ],
   "date": "WED JULY 23",
   "venue_id": "dc9"
 }

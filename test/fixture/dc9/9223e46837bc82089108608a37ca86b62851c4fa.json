@@ -12,6 +12,16 @@
     }
   ],
   "title": "Axxa/Abraxas",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "WED JUN 11",
   "venue_id": "dc9"
 }

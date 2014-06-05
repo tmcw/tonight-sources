@@ -12,6 +12,12 @@
     }
   ],
   "title": "[late event]",
+  "prices": [
+    {
+      "price": 0,
+      "type": "any"
+    }
+  ],
   "date": "FRI JUN 6",
   "venue_id": "dc9"
 }

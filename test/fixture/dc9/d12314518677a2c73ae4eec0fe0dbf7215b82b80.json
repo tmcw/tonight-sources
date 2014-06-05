@@ -12,6 +12,16 @@
     }
   ],
   "title": "White Hinterland",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "WED JUN 25",
   "venue_id": "dc9"
 }

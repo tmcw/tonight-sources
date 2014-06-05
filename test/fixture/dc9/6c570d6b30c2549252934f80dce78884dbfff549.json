@@ -12,6 +12,12 @@
     }
   ],
   "title": "BANE",
+  "prices": [
+    {
+      "price": 15,
+      "type": "unknown"
+    }
+  ],
   "date": "WED JUN 18",
   "venue_id": "dc9"
 }

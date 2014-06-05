@@ -12,6 +12,12 @@
     }
   ],
   "title": "London Disco Brigade [late event]",
+  "prices": [
+    {
+      "price": 0,
+      "type": "any"
+    }
+  ],
   "date": "SAT JUN 14",
   "venue_id": "dc9"
 }

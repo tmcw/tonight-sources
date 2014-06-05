@@ -12,6 +12,12 @@
     }
   ],
   "title": "Peach Pit [late event]",
+  "prices": [
+    {
+      "price": 5,
+      "type": "unknown"
+    }
+  ],
   "date": "SAT JUN 21",
   "venue_id": "dc9"
 }

@@ -12,6 +12,16 @@
     }
   ],
   "title": "Robert Francis & The Night Tide",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "SUN JUN 22",
   "venue_id": "dc9"
 }

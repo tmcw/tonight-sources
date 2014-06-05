@@ -12,6 +12,16 @@
     }
   ],
   "title": "The Eastern Sea & Wild Moccasins",
+  "prices": [
+    {
+      "price": 12,
+      "type": "advance"
+    },
+    {
+      "price": 15,
+      "type": "door"
+    }
+  ],
   "date": "TUE JUN 24",
   "venue_id": "dc9"
 }

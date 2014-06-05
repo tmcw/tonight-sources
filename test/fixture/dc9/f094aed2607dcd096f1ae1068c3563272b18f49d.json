@@ -12,6 +12,16 @@
     }
   ],
   "title": "Frontier Ruckus",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "MON AUG 18",
   "venue_id": "dc9"
 }

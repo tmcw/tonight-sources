@@ -12,6 +12,16 @@
     }
   ],
   "title": "The Lonely Biscuits",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "SUN JUNE 29",
   "venue_id": "dc9"
 }

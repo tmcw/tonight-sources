@@ -12,6 +12,12 @@
     }
   ],
   "title": "Poseurs’ 31st Anniversary Reunion",
+  "prices": [
+    {
+      "price": 10,
+      "type": "unknown"
+    }
+  ],
   "date": "SAT AUG 23",
   "venue_id": "dc9"
 }

@@ -12,6 +12,16 @@
     }
   ],
   "title": "Strand Of Oaks",
+  "prices": [
+    {
+      "price": 12,
+      "type": "advance"
+    },
+    {
+      "price": 12,
+      "type": "door"
+    }
+  ],
   "date": "SUN SEP 14",
   "venue_id": "dc9"
 }

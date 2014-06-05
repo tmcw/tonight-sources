@@ -12,6 +12,12 @@
     }
   ],
   "title": "indie rock KARAOKE",
+  "prices": [
+    {
+      "price": "",
+      "type": "unknown"
+    }
+  ],
   "date": "SUN JUN 30",
   "venue_id": "dc9"
 }

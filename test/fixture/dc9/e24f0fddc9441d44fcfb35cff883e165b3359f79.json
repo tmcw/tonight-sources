@@ -12,6 +12,16 @@
     }
   ],
   "title": "Streets of Laredo",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "TUE JUL 8",
   "venue_id": "dc9"
 }

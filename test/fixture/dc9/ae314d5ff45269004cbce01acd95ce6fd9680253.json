@@ -12,6 +12,16 @@
     }
   ],
   "title": "Thus Owls",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "FRI JULY 25",
   "venue_id": "dc9"
 }

@@ -12,6 +12,16 @@
     }
   ],
   "title": "Viet Cong (Ex-Women)",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "WED JUL 9",
   "venue_id": "dc9"
 }

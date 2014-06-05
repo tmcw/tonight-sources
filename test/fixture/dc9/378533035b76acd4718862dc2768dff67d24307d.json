@@ -12,6 +12,16 @@
     }
   ],
   "title": "Ki:Theory",
+  "prices": [
+    {
+      "price": 10,
+      "type": "advance"
+    },
+    {
+      "price": 10,
+      "type": "door"
+    }
+  ],
   "date": "THU JUN 19",
   "venue_id": "dc9"
 }
