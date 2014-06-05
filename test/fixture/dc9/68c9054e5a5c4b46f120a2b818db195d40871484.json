@@ -36,5 +36,9 @@
   "date": "SAT JUN 7",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/540029?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/yFFoZIYMS08"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

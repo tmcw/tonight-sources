@@ -25,5 +25,11 @@
   "date": "WED JULY 30",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/592905?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/bvbdh_RA9ew"
+  ],
+  "soundcloud": [
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/8778980&auto_play=false&hide_related=false&visual=true"
+  ],
   "venue_id": "dc9"
 }

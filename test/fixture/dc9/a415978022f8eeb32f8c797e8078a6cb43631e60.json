@@ -25,5 +25,10 @@
   "date": "MON JULY 21",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/585099?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/YucWOXSCa4U",
+    "//www.youtube.com/embed/EMgeEUyUU2c"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

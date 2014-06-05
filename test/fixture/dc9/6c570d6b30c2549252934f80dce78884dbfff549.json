@@ -21,5 +21,11 @@
   "date": "WED JUN 18",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/553995?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/otMQWeudOMM",
+    "//www.youtube.com/embed/shCgL0-dGUQ",
+    "//www.youtube.com/embed/SpVa-x7YndY"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

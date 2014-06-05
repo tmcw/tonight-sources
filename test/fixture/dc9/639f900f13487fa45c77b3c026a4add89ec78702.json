@@ -25,5 +25,9 @@
   "date": "THU JUN 26",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/575301?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/fsrYymcvGFs"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

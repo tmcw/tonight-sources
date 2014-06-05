@@ -25,5 +25,9 @@
   "date": "SUN JUN 15",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/544965?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/mDkwOHkdHfQ"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

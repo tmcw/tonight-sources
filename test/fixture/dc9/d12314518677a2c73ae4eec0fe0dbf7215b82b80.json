@@ -25,5 +25,9 @@
   "date": "WED JUN 25",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/566641?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/_VW5xIXdfgw"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

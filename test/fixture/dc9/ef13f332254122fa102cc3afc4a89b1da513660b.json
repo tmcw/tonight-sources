@@ -25,5 +25,12 @@
   "date": "THUR JULY 16",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/598295?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/Cog-agwAmk4",
+    "//www.youtube.com/embed/ZC7VXxIecNY"
+  ],
+  "soundcloud": [
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144695511&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"
+  ],
   "venue_id": "dc9"
 }

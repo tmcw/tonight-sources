@@ -25,5 +25,9 @@
   "date": "MON AUG 18",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/585093?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/rZPKgBoGuxU"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

@@ -21,5 +21,12 @@
   "date": "SAT JUN 21",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/568179?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/xadxu7tZJrg"
+  ],
+  "soundcloud": [
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3826849&auto_play=false&hide_related=false&visual=true",
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1330718&auto_play=false&hide_related=false&visual=true"
+  ],
   "venue_id": "dc9"
 }

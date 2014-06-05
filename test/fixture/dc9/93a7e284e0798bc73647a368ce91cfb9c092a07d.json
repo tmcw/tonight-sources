@@ -25,5 +25,9 @@
   "date": "THUR JULY 24",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/580507?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/z7u6udhgSGg"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

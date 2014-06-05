@@ -25,5 +25,9 @@
   "date": "THUR JULY 17",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/585095?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/U_BpfdXbuac"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

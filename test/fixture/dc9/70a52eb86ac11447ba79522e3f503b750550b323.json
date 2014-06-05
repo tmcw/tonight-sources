@@ -25,5 +25,9 @@
   "date": "SUN SEP 14",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/571575?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/Ef7ZYeKVsaw"
+  ],
+  "soundcloud": [],
   "venue_id": "dc9"
 }

@@ -73,6 +73,15 @@ function parseShowBody(body) {
         minage = 21;
     }
 
+    var youtube = [],
+        soundcloud = [];
+
+    $('#content iframe').each(function(i, elem) {
+        var iframesrc = $(elem).attr('src');
+        if (iframesrc.match(/youtube/)) youtube.push(iframesrc);
+        if (iframesrc.match(/soundcloud/)) soundcloud.push(iframesrc);
+    });
+
     var tickets = null;
 
     $('.showinfo a').each(function(i, elem) {
@@ -98,6 +107,8 @@ function parseShowBody(body) {
         date: date,
         minage: minage,
         tickets: tickets,
+        youtube: youtube,
+        soundcloud: soundcloud,
         venue_id: VENUEID
     };
 }

@@ -25,5 +25,13 @@
   "date": "THU AUG 14",
   "minage": 0,
   "tickets": "http://www.ticketfly.com/purchase/event/553989?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/A4NIA6s8Wk8",
+    "//www.youtube.com/embed/CfTrJqVYEPQ?list=UU3iI9dmxTnYRln3bXJ50UDw"
+  ],
+  "soundcloud": [
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/9356878&auto_play=false&hide_related=false&visual=true",
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1324531&auto_play=false&hide_related=false&visual=true"
+  ],
   "venue_id": "dc9"
 }
