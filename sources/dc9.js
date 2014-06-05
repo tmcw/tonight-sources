@@ -65,6 +65,14 @@ function parseShowBody(body) {
 
     var prices = $('.showinfo h3').text().trim();
 
+    var minage = null;
+
+    if ($('.showinfo').text().match(/all ages/)) {
+        minage = 0;
+    } else if ($('.showinfo').text().match(/21\+/)) {
+        minage = 21;
+    }
+
     times = times.map(function(time) {
         var rmday = date.replace(/^(\w+)\s/, '').trim();
         return {
@@ -79,6 +87,7 @@ function parseShowBody(body) {
         title: title,
         prices: parsePrices(prices),
         date: date,
+        minage: minage,
         venue_id: VENUEID
     };
 }
