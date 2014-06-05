@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1407718800000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1407717000000
+    }
+  ],
+  "title": "Twin Peaks",
+  "date": "SUN AUG 10",
+  "venue_id": "dc9"
+}

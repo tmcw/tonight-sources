@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1403226000000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1403224200000
+    }
+  ],
+  "title": "Ki:Theory",
+  "date": "THU JUN 19",
+  "venue_id": "dc9"
+}

@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1406509200000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1406507400000
+    }
+  ],
+  "title": "Saint Rich",
+  "date": "SUN JULY 27",
+  "venue_id": "dc9"
+}

@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1406250000000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1406248200000
+    }
+  ],
+  "title": "The Fresh & Onlys",
+  "date": "THUR JULY 24",
+  "venue_id": "dc9"
+}

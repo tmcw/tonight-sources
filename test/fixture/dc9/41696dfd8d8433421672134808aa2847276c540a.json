@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "8:00pm",
+      "stamp": 1406160000000
+    },
+    {
+      "label": "Doors",
+      "formatted": "7:00pm",
+      "stamp": 1406156400000
+    }
+  ],
+  "title": "Walk The Plank",
+  "date": "WED JULY 23",
+  "venue_id": "dc9"
+}

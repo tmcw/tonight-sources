@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:30pm",
+      "stamp": 1405215000000
+    },
+    {
+      "label": "Doors",
+      "formatted": "9:00pm",
+      "stamp": 1405213200000
+    }
+  ],
+  "title": "Snowmine",
+  "date": "SAT JUL 12",
+  "venue_id": "dc9"
+}

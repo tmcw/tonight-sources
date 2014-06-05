@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1403658000000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1403656200000
+    }
+  ],
+  "title": "The Eastern Sea & Wild Moccasins",
+  "date": "TUE JUN 24",
+  "venue_id": "dc9"
+}

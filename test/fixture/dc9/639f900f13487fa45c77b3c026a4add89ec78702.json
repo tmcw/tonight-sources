@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1403830800000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1403829000000
+    }
+  ],
+  "title": "Young Magic",
+  "date": "THU JUN 26",
+  "venue_id": "dc9"
+}

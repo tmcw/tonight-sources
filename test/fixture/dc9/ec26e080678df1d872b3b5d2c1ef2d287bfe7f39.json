@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "8:30pm",
+      "stamp": 1402878600000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:00pm",
+      "stamp": 1402876800000
+    }
+  ],
+  "title": "The Trews",
+  "date": "SUN JUN 15",
+  "venue_id": "dc9"
+}

@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1405558800000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1405557000000
+    }
+  ],
+  "title": "Emma Ruth Rundle",
+  "date": "THUR JULY 16",
+  "venue_id": "dc9"
+}

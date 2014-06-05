@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1402621200000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1402619400000
+    }
+  ],
+  "title": "Curtis Harding",
+  "date": "THU JUN 12",
+  "venue_id": "dc9"
+}

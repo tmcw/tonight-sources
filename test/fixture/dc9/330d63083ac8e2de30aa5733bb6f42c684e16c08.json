@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1404090000000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1404088200000
+    }
+  ],
+  "title": "The Lonely Biscuits",
+  "date": "SUN JUNE 29",
+  "venue_id": "dc9"
+}

@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1404867600000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1404865800000
+    }
+  ],
+  "title": "Streets of Laredo",
+  "date": "TUE JUL 8",
+  "venue_id": "dc9"
+}

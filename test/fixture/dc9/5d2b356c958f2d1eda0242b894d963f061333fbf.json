@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "6:30pm",
+      "stamp": 1403303400000
+    },
+    {
+      "label": "Doors",
+      "formatted": "6:00pm",
+      "stamp": 1403301600000
+    }
+  ],
+  "title": "Lowland Hum [EARLY SHOW]",
+  "date": "FRI JUN 20",
+  "venue_id": "dc9"
+}

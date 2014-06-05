@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "6:30pm",
+      "stamp": 1402785000000
+    },
+    {
+      "label": "Doors",
+      "formatted": "6:00pm",
+      "stamp": 1402783200000
+    }
+  ],
+  "title": "Nerd Nite",
+  "date": "SAT JUNE 14",
+  "venue_id": "dc9"
+}

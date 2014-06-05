@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:30pm",
+      "stamp": 1406424600000
+    },
+    {
+      "label": "Doors",
+      "formatted": "9:00pm",
+      "stamp": 1406422800000
+    }
+  ],
+  "title": "Filligar",
+  "date": "SAT JULY 26",
+  "venue_id": "dc9"
+}

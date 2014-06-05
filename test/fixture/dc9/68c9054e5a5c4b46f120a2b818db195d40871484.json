@@ -1,0 +1,32 @@
+{
+  "times": [
+    {
+      "label": "Nothing",
+      "formatted": "10:00pm",
+      "stamp": 1402192800000
+    },
+    {
+      "label": "Superheaven",
+      "formatted": "9:00pm",
+      "stamp": 1402189200000
+    },
+    {
+      "label": "Myrrh Myrrh",
+      "formatted": "8:00pm",
+      "stamp": 1402185600000
+    },
+    {
+      "label": "Show",
+      "formatted": "8:00pm",
+      "stamp": 1402185600000
+    },
+    {
+      "label": "Doors",
+      "formatted": "7:30pm",
+      "stamp": 1402183800000
+    }
+  ],
+  "title": "Nothing",
+  "date": "SAT JUN 7",
+  "venue_id": "dc9"
+}

@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1408064400000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1408062600000
+    }
+  ],
+  "title": "Wildcat! Wildcat!",
+  "date": "THU AUG 14",
+  "venue_id": "dc9"
+}

@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1405990800000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1405989000000
+    }
+  ],
+  "title": "Lee Bains III and the Glory Fires",
+  "date": "MON JULY 21",
+  "venue_id": "dc9"
+}

@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1408410000000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1408408200000
+    }
+  ],
+  "title": "Frontier Ruckus",
+  "date": "MON AUG 18",
+  "venue_id": "dc9"
+}

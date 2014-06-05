@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "8:00pm",
+      "stamp": 1403136000000
+    },
+    {
+      "label": "Doors",
+      "formatted": "7:00pm",
+      "stamp": 1403132400000
+    }
+  ],
+  "title": "BANE",
+  "date": "WED JUN 18",
+  "venue_id": "dc9"
+}

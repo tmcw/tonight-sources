@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1403053200000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1403051400000
+    }
+  ],
+  "title": "Young & Sick",
+  "date": "TUE JUN 17",
+  "venue_id": "dc9"
+}

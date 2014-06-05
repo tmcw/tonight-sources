@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "10:30pm",
+      "stamp": 1403404200000
+    },
+    {
+      "label": "Doors",
+      "formatted": "10:30pm",
+      "stamp": 1403404200000
+    }
+  ],
+  "title": "Peach Pit [late event]",
+  "date": "SAT JUN 21",
+  "venue_id": "dc9"
+}

@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1403485200000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1403483400000
+    }
+  ],
+  "title": "Robert Francis & The Night Tide",
+  "date": "SUN JUN 22",
+  "venue_id": "dc9"
+}

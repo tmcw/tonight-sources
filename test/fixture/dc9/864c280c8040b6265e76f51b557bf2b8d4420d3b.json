@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1404435600000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1404433800000
+    }
+  ],
+  "title": "Hundred Waters",
+  "date": "THU JUL 3",
+  "venue_id": "dc9"
+}

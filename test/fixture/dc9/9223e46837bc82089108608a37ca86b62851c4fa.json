@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1402534800000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1402533000000
+    }
+  ],
+  "title": "Axxa/Abraxas",
+  "date": "WED JUN 11",
+  "venue_id": "dc9"
+}

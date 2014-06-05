@@ -1,0 +1,32 @@
+{
+  "times": [
+    {
+      "label": "Blue Pinto",
+      "formatted": "10:10pm",
+      "stamp": 1402020600000
+    },
+    {
+      "label": "Monkeyfeather",
+      "formatted": "9:20pm",
+      "stamp": 1402017600000
+    },
+    {
+      "label": "Simply Subtle",
+      "formatted": "8:30pm",
+      "stamp": 1402014600000
+    },
+    {
+      "label": "Show",
+      "formatted": "8:30pm",
+      "stamp": 1402014600000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:00pm",
+      "stamp": 1402012800000
+    }
+  ],
+  "title": "Blue Pinto",
+  "date": "THUR JUNE 5",
+  "venue_id": "dc9"
+}

@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1402448400000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1402446600000
+    }
+  ],
+  "title": "Ratking",
+  "date": "TUE JUN 10",
+  "venue_id": "dc9"
+}

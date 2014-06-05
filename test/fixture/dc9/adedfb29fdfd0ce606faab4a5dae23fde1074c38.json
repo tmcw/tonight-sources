@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "10:00pm",
+      "stamp": 1402106400000
+    },
+    {
+      "label": "Doors",
+      "formatted": "10:00pm",
+      "stamp": 1402106400000
+    }
+  ],
+  "title": "[late event]",
+  "date": "FRI JUN 6",
+  "venue_id": "dc9"
+}

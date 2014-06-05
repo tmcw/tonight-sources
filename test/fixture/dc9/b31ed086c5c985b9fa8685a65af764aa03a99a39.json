@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "11:00pm",
+      "stamp": 1402196400000
+    },
+    {
+      "label": "Doors",
+      "formatted": "11:00pm",
+      "stamp": 1402196400000
+    }
+  ],
+  "title": "London Disco Brigade [late event]",
+  "date": "SAT JUN 7",
+  "venue_id": "dc9"
+}

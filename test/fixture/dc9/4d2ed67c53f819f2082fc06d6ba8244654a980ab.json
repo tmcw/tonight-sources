@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "9:00pm",
+      "stamp": 1408582800000
+    },
+    {
+      "label": "Doors",
+      "formatted": "8:30pm",
+      "stamp": 1408581000000
+    }
+  ],
+  "title": "Jacco Gardner",
+  "date": "WED AUG 20",
+  "venue_id": "dc9"
+}

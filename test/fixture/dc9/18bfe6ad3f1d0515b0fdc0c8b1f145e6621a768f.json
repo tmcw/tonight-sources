@@ -1,0 +1,32 @@
+{
+  "times": [
+    {
+      "label": "SPOONBOY (RECORD RELEASE SHOW) [EARLY SHOW]",
+      "formatted": "8:00pm",
+      "stamp": 1402099200000
+    },
+    {
+      "label": "COLOUR ME WEDNESDAY",
+      "formatted": "7:15pm",
+      "stamp": 1402096500000
+    },
+    {
+      "label": "THE GOODBYE PARTY (MICHAEL CANTOR)",
+      "formatted": "6:30pm",
+      "stamp": 1402093800000
+    },
+    {
+      "label": "Show",
+      "formatted": "6:30pm",
+      "stamp": 1402093800000
+    },
+    {
+      "label": "Doors",
+      "formatted": "6:00pm",
+      "stamp": 1402092000000
+    }
+  ],
+  "title": "SPOONBOY (RECORD RELEASE SHOW) [EARLY SHOW]",
+  "date": "FRI JUN 6",
+  "venue_id": "dc9"
+}
