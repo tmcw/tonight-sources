@@ -6,14 +6,14 @@ var queue = require('queue-async'),
  * CACHE: save results to disk
  * MOCK: use results on disk
  */
-if (process.env.SAVE) request = require('./request-save');
-else if (process.env.MOCK) request = require('./request-cached');
+if (process.env.SAVE) request = require('../lib/request-save');
+else if (process.env.MOCK) request = require('../lib/request-cached');
 else request = require('request');
 
 var ENDPOINT = 'http://www.dcnine.com/calendar/';
 var VENUEID = 'dc9';
 
-request(ENDPOINT, onload);
+// request(ENDPOINT, onload);
 
 function onload(err, response, body) {
     if (err) throw err;
@@ -47,8 +47,10 @@ function getShow(link, callback) {
     }
 }
 
-function parseShow(show) {
-    var $ = cheerio.load(show.body),
+module.exports.parseShowBody = parseShowBody;
+
+function parseShowBody(body) {
+    var $ = cheerio.load(body),
         times = [],
         title = $('.post h2').text().trim(),
         date = $('.post h3').first().text();
@@ -66,18 +68,20 @@ function parseShow(show) {
         return {
             label: time[0],
             formatted: time[1],
-            stamp: moment(rmday + ' ' + time[1], 'MMM D h:mma')
+            stamp: +moment(rmday + ' ' + time[1], 'MMM D h:mma').toDate()
         };
     });
 
-    var data = {
+    return {
         times: times,
         title: title,
         date: date,
-        url: show.url,
         venue_id: VENUEID
     };
+}
 
-    // console.log(JSON.stringify(data, null, 2));
+function parseShow(show) {
+    var data = parseShowBody(show);
+    data.url = show.url;
     return data;
 }

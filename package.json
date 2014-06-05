@@ -1,5 +1,5 @@
 {
-  "name": "shows-tonight-sources",
+  "name": "tonight-sources",
   "version": "0.0.0",
   "description": "read sources for shows tonight",
   "main": "index.js",
@@ -7,7 +7,6 @@
     "test": "tap test/*.js"
   },
   "keywords": [
-    "shows",
     "tonight",
     "sources"
   ],
@@ -19,5 +18,8 @@
     "cheerio": "~0.16.0",
     "queue-async": "~1.0.7",
     "moment": "~2.6.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.9"
   }
 }

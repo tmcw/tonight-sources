@@ -1,0 +1,17 @@
+{
+  "times": [
+    {
+      "label": "Show",
+      "formatted": "6:30pm",
+      "stamp": 1403389800000
+    },
+    {
+      "label": "Doors",
+      "formatted": "6:00pm",
+      "stamp": 1403388000000
+    }
+  ],
+  "title": "Bear Hands [EARLY SHOW]",
+  "date": "SAT JUN 21",
+  "venue_id": "dc9"
+}
