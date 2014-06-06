@@ -1,0 +1,25 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "3:00pm",
+      "stamp": 1405191600000
+    }
+  ],
+  "title": "GIRLS ROCK! DC CAMPER SHOWCASE",
+  "prices": [
+    {
+      "type": "Mainstage",
+      "price": 15
+    },
+    {
+      "doors": "free"
+    }
+  ],
+  "date": "Saturday July 12",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/594419?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

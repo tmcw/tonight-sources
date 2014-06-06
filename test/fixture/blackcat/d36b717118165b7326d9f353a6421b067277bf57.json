@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1404691200000
+    }
+  ],
+  "title": "PINK MOUNTAINTOPS",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 12
+    }
+  ],
+  "date": "Sunday July 6",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/574489?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/2cL02nH1D_M?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

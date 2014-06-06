@@ -1,0 +1,28 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "9:00pm",
+      "stamp": 1411866000000
+    }
+  ],
+  "title": "POMPLAMOOSE",
+  "prices": [
+    {
+      "type": "advance",
+      "price": 18
+    },
+    {
+      "type": "doors",
+      "price": 20
+    }
+  ],
+  "date": "Saturday Sept 27",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/556807?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/9xMCNmUaGko?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

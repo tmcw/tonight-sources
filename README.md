@@ -20,3 +20,16 @@ The purpose of this repository is to build scrapers for the top venues in DC
 
 * Comet Ping Pong: http://sashalord-presents.tumblr.com/schedule
 * Bohemian Caverns: no calendar
+
+Template
+
+```
+* [ ] titles
+* [ ] times
+* [ ] links
+* [ ] prices
+* [ ] band links
+* [ ] all ages
+* [ ] ticket link
+* [ ] sold out
+```

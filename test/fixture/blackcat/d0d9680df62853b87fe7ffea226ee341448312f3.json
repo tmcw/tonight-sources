@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1406073600000
+    }
+  ],
+  "title": "THE CLIENTELE",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 15
+    }
+  ],
+  "date": "Tuesday July 22",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/543515?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/lo5gbXzrV0A?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

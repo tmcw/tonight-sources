@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "9:00pm",
+      "stamp": 1404003600000
+    }
+  ],
+  "title": "GIRLS ROCK! DC BENEFIT feat:",
+  "prices": [
+    {
+      "type": "Mainstage",
+      "price": 12
+    }
+  ],
+  "date": "Saturday June 28",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/587011?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

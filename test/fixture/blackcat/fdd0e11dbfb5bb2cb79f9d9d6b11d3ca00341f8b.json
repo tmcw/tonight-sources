@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1403049600000
+    }
+  ],
+  "title": "PAINTED PALMS",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 12
+    }
+  ],
+  "date": "Tuesday June 17",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/560659?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/EMZvA0ALrSo?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1404086400000
+    }
+  ],
+  "title": "OUT OF THE BASEMENT",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 5
+    }
+  ],
+  "date": "Sunday June 29",
+  "minage": null,
+  "tickets": null,
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

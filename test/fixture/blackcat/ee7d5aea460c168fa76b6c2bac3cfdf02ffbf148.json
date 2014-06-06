@@ -1,0 +1,25 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "9:00pm",
+      "stamp": 1408755600000
+    }
+  ],
+  "title": "SIERRA LEONE'S REFUGEE ALL STARSHARPER SIMON",
+  "prices": [
+    {
+      "type": "Mainstage",
+      "price": 20
+    }
+  ],
+  "date": "Friday Aug 22",
+  "minage": null,
+  "tickets": null,
+  "youtube": [
+    "//www.youtube.com/embed/eRKf7jPGKlY?rel=0",
+    "//www.youtube.com/embed/d82Dz1DW2BM?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

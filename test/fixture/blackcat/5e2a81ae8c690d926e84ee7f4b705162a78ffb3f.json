@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1402617600000
+    }
+  ],
+  "title": "THE COLD AND LOVELY",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Thursday June 12",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/576001?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/ce_fJsasZVQ?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

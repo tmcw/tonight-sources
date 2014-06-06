@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1402444800000
+    }
+  ],
+  "title": "PUNK THE CAPITAL",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Tuesday June 10",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/574521?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

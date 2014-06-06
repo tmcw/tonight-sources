@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1405296000000
+    }
+  ],
+  "title": "OWLS",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 15
+    }
+  ],
+  "date": "Sunday July 13",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/536737?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/OiuYGCtL_qM?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

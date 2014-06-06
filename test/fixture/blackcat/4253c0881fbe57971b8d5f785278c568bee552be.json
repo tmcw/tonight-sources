@@ -1,0 +1,26 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:452pm",
+      "stamp": 1402706700000
+    }
+  ],
+  "title": "HOUSE OF SWEETBOTTOM BLUES AND BURLESQE REVUE",
+  "prices": [
+    {
+      "type": "advance",
+      "price": 12
+    },
+    {
+      "type": "doors",
+      "price": 15
+    }
+  ],
+  "date": "Friday June 13",
+  "minage": 21,
+  "tickets": "http://www.ticketfly.com/purchase/event/578561?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

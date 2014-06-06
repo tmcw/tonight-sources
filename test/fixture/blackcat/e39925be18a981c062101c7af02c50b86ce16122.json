@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1405468800000
+    }
+  ],
+  "title": "MINER",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Tuesday July 15",
+  "minage": null,
+  "tickets": null,
+  "youtube": [
+    "//www.youtube.com/embed/YW_bqOJtHVM?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1408924800000
+    }
+  ],
+  "title": "DEAD GAZE",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Sunday Aug 24",
+  "minage": null,
+  "tickets": null,
+  "youtube": [
+    "//www.youtube.com/embed/XhY1TKBy8C0?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

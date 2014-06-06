@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "7:00pm",
+      "stamp": 1403823600000
+    }
+  ],
+  "title": "BANDING TOGETHER 2014",
+  "prices": [
+    {
+      "type": "Mainstage",
+      "price": 10
+    }
+  ],
+  "date": "Thursday June 26",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/582533?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

@@ -1,0 +1,21 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1407974400000
+    }
+  ],
+  "title": "AV ARCHIVES NIGHT",
+  "prices": [
+    {
+      "doors": "free"
+    }
+  ],
+  "date": "Wednesday Aug 13",
+  "minage": null,
+  "tickets": null,
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

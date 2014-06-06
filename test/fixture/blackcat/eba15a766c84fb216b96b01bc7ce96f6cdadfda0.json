@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1404172800000
+    }
+  ],
+  "title": "PATTERN IS MOVEMENT",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Monday June 30",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/560591?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/BfvLSJe59A8?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

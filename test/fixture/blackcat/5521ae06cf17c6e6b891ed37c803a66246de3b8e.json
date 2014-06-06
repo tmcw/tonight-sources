@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1404432000000
+    }
+  ],
+  "title": "THE SEA LIFE",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Thursday July 3",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/569361?utm_medium=bks",
+  "youtube": [
+    "http://www.youtube.com/embed/3zl6c6CelWc"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

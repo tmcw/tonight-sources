@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1403222400000
+    }
+  ],
+  "title": "GEMINI CLUB",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 12
+    }
+  ],
+  "date": "Thursday June 19",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/500411?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/ChWK9RcG1gY?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

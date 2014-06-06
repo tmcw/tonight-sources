@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "9:30pm",
+      "stamp": 1402191000000
+    }
+  ],
+  "title": "BABE RAINBOWRICH MOREL'S HOT SAUCE",
+  "prices": [
+    {
+      "type": "Both",
+      "price": 10
+    }
+  ],
+  "date": "Saturday June 7",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/579393?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

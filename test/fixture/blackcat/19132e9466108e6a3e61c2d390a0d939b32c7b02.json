@@ -1,0 +1,28 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1410307200000
+    }
+  ],
+  "title": "MINERAL",
+  "prices": [
+    {
+      "type": "advance",
+      "price": 18
+    },
+    {
+      "type": "doors",
+      "price": 20
+    }
+  ],
+  "date": "Tuesday Sept 9",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/562061?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/X-P9cbsPbR0?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

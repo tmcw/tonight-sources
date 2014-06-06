@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "9:00pm",
+      "stamp": 1406336400000
+    }
+  ],
+  "title": "DIIV",
+  "prices": [
+    {
+      "type": "Mainstage",
+      "price": 15
+    }
+  ],
+  "date": "Friday July 25",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/584311?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/SSRgAc8jHNo?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

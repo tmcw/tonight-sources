@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1402876800000
+    }
+  ],
+  "title": "RYLEY WALKER",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Sunday June 15",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/575341?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

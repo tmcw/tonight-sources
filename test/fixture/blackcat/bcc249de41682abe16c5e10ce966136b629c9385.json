@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1405987200000
+    }
+  ],
+  "title": "VERUCA SALT",
+  "prices": [
+    {
+      "type": "Mainstage",
+      "price": 25
+    }
+  ],
+  "date": "Monday July 21",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/553745?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/jC9AUR-iTo0?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

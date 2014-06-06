@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "9:00pm",
+      "stamp": 1405818000000
+    }
+  ],
+  "title": "TECHNOPHOBIA",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Saturday July 19",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/585613?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/izdzHfhY0vY?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

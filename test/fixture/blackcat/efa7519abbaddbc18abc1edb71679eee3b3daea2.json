@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "9:00pm",
+      "stamp": 1403312400000
+    }
+  ],
+  "title": "TRAVON FREE",
+  "prices": [
+    {
+      "type": "Mainstage",
+      "price": 12
+    }
+  ],
+  "date": "Friday June 20",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/592379?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "10:00pm",
+      "stamp": 1403402400000
+    }
+  ],
+  "title": "PARTY LIGHTS",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 5
+    }
+  ],
+  "date": "Saturday June 21",
+  "minage": null,
+  "tickets": null,
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

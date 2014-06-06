@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "9:30pm",
+      "stamp": 1402795800000
+    }
+  ],
+  "title": "CRYFEST",
+  "prices": [
+    {
+      "type": "Mainstage",
+      "price": 10
+    }
+  ],
+  "date": "Saturday June 14",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/575999?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1402358400000
+    }
+  ],
+  "title": "MY GOLD MASK",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Monday June 9",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/566883?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/e8e-IaVJYu4?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

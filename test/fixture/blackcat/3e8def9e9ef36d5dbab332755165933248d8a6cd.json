@@ -1,0 +1,29 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1404864000000
+    }
+  ],
+  "title": "DUB THOMPSONOUGHT",
+  "prices": [
+    {
+      "type": "advance",
+      "price": 10
+    },
+    {
+      "type": "doors",
+      "price": 12
+    }
+  ],
+  "date": "Tuesday July 8",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/566915?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/LC7gSxEuhlw?rel=0",
+    "//www.youtube.com/embed/qXt_Jpvtu5Q?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

@@ -1,0 +1,28 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1404950400000
+    }
+  ],
+  "title": "MADE IN HEIGHTS",
+  "prices": [
+    {
+      "type": "advance",
+      "price": 10
+    },
+    {
+      "type": "doors",
+      "price": 12
+    }
+  ],
+  "date": "Wednesday July 9",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/592189?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/F0JW1X2SwJc?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

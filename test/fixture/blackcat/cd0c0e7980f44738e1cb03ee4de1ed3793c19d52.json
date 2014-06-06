@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1403740800000
+    }
+  ],
+  "title": "OLD MAN CANYON",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Wednesday June 25",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/565789?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/iw_KyTsbVu0?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

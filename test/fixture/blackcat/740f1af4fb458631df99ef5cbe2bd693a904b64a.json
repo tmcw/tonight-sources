@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "9:30pm",
+      "stamp": 1403400600000
+    }
+  ],
+  "title": "MR. BRIGHTSIDE",
+  "prices": [
+    {
+      "type": "Mainstage",
+      "price": 10
+    }
+  ],
+  "date": "Saturday June 21",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/582543?utm_medium=bks",
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

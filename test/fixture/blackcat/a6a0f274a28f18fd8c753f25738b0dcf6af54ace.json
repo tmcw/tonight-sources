@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1402963200000
+    }
+  ],
+  "title": "ÁSGEIR",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 12
+    }
+  ],
+  "date": "Monday June 16",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/565809?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/D-dHIkF_lO4?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

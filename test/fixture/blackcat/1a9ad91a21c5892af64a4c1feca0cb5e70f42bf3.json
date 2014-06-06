@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1402012800000
+    }
+  ],
+  "title": "SAINTSENECA",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 12
+    }
+  ],
+  "date": "Thursday June 5",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/536497?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/EWSDWy2gA4w?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

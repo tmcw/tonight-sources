@@ -1,0 +1,24 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1403136000000
+    }
+  ],
+  "title": "TWEENS",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 12
+    }
+  ],
+  "date": "Wednesday June 18",
+  "minage": null,
+  "tickets": "http://www.ticketfly.com/purchase/event/560653?utm_medium=bks",
+  "youtube": [
+    "//www.youtube.com/embed/nE-kd6SAu8E?rel=0"
+  ],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

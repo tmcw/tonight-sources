@@ -1,0 +1,22 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:00pm",
+      "stamp": 1403654400000
+    }
+  ],
+  "title": "MISS LONELYHEART",
+  "prices": [
+    {
+      "type": "Backstage",
+      "price": 10
+    }
+  ],
+  "date": "Tuesday June 24",
+  "minage": null,
+  "tickets": null,
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}

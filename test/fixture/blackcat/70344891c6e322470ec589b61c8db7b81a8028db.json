@@ -1,0 +1,26 @@
+{
+  "times": [
+    {
+      "label": "doors",
+      "formatted": "8:452pm",
+      "stamp": 1403916300000
+    }
+  ],
+  "title": "THE FOXY FEMMES BURLESQUE",
+  "prices": [
+    {
+      "type": "advance",
+      "price": 12
+    },
+    {
+      "type": "doors",
+      "price": 15
+    }
+  ],
+  "date": "Friday June 27",
+  "minage": 21,
+  "tickets": null,
+  "youtube": [],
+  "soundcloud": [],
+  "venue_id": "blackcat"
+}
