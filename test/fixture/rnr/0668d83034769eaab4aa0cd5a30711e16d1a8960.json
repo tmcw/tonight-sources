@@ -10,7 +10,16 @@
     }
   ],
   "title": "Hospitality & EX HEX",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$13",
+      "type": "Advance"
+    },
+    {
+      "price": "$13",
+      "type": "Day of show"
+    }
+  ],
   "date": "Thu Jul 24 | all ages",
   "minage": null,
   "tickets": null,

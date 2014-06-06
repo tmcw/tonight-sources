@@ -10,7 +10,16 @@
     }
   ],
   "title": "New Retro",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$12",
+      "type": "Advance"
+    },
+    {
+      "price": "$12",
+      "type": "Day of show"
+    }
+  ],
   "date": "Mon Jun 23 | all ages",
   "minage": null,
   "tickets": null,

@@ -10,7 +10,16 @@
     }
   ],
   "title": "Fucked Up",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$15",
+      "type": "Advance"
+    },
+    {
+      "price": "$15",
+      "type": "Day of show"
+    }
+  ],
   "date": "Thu Jul 3 | all ages",
   "minage": null,
   "tickets": null,

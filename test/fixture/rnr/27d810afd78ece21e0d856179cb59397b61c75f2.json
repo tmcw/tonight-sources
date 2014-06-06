@@ -10,7 +10,16 @@
     }
   ],
   "title": "OOIOO",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$15",
+      "type": "Advance"
+    },
+    {
+      "price": "$18",
+      "type": "Day of show"
+    }
+  ],
   "date": "Thu Jul 17 | all ages",
   "minage": null,
   "tickets": null,

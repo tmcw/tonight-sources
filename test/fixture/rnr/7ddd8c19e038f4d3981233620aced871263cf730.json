@@ -10,7 +10,16 @@
     }
   ],
   "title": "Circa Survive",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$25",
+      "type": "Advance"
+    },
+    {
+      "price": "$$25",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Jun 28 | all ages",
   "minage": null,
   "tickets": null,

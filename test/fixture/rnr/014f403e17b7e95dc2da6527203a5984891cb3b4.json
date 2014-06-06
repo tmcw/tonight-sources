@@ -10,7 +10,16 @@
     }
   ],
   "title": "Joyce Manor",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$13",
+      "type": "Advance"
+    },
+    {
+      "price": "$15",
+      "type": "Day of show"
+    }
+  ],
   "date": "Tue Sep 16 | all ages",
   "minage": null,
   "tickets": null,

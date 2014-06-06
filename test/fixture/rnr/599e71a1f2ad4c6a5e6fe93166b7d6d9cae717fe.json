@@ -10,7 +10,16 @@
     }
   ],
   "title": "UNITED NATIONS",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$$12",
+      "type": "Advance"
+    },
+    {
+      "price": "$$12",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Aug 16 | all ages",
   "minage": null,
   "tickets": null,

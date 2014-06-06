@@ -10,7 +10,16 @@
     }
   ],
   "title": "Black Taxi",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$10",
+      "type": "Advance"
+    },
+    {
+      "price": "$12",
+      "type": "Day of show"
+    }
+  ],
   "date": "Fri Jun 27 | all ages",
   "minage": null,
   "tickets": null,

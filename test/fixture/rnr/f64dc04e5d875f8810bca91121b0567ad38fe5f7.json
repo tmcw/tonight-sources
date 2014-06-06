@@ -10,7 +10,16 @@
     }
   ],
   "title": "POP OFF",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$",
+      "type": "Advance"
+    },
+    {
+      "price": "$",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Nov 1 - November 1, 2015 2:00 am |",
   "minage": null,
   "tickets": null,

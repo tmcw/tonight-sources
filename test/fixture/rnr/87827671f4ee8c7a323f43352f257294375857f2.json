@@ -10,7 +10,16 @@
     }
   ],
   "title": "DRAG @ Rock & Roll Hotel",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$20",
+      "type": "Advance"
+    },
+    {
+      "price": "$20",
+      "type": "Day of show"
+    }
+  ],
   "date": "Thu Jun 5 | 21+",
   "minage": 21,
   "tickets": null,

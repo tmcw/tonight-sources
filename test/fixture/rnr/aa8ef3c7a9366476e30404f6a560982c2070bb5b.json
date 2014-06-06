@@ -10,7 +10,16 @@
     }
   ],
   "title": "Djs Rex Riot & Basscamp",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$",
+      "type": "Advance"
+    },
+    {
+      "price": "$",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Jun 21 |",
   "minage": null,
   "tickets": null,

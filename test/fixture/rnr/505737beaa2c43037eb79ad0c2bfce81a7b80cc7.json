@@ -10,7 +10,16 @@
     }
   ],
   "title": "The Felice Brothers",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$15",
+      "type": "Advance"
+    },
+    {
+      "price": "$",
+      "type": "Day of show"
+    }
+  ],
   "date": "Thu Jun 19 |",
   "minage": null,
   "tickets": null,

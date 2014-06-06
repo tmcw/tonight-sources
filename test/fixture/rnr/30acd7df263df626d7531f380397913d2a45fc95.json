@@ -10,7 +10,16 @@
     }
   ],
   "title": "Crystal Stilts",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$12",
+      "type": "Advance"
+    },
+    {
+      "price": "$12",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Jun 14 | all ages",
   "minage": null,
   "tickets": null,

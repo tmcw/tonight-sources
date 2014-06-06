@@ -10,7 +10,16 @@
     }
   ],
   "title": "still ill",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$FREE",
+      "type": "Advance"
+    },
+    {
+      "price": "$FREE",
+      "type": "Day of show"
+    }
+  ],
   "date": "Fri Jul 25 | 21+",
   "minage": 21,
   "tickets": null,

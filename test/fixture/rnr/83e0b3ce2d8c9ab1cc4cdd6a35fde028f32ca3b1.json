@@ -10,7 +10,16 @@
     }
   ],
   "title": "Loud Boyz & Black Clouds",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$12",
+      "type": "Advance"
+    },
+    {
+      "price": "$12",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Jun 21 | all ages",
   "minage": null,
   "tickets": null,

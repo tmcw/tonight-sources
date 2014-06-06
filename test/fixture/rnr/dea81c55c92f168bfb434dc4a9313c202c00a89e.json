@@ -10,7 +10,16 @@
     }
   ],
   "title": "Cayucas",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$13",
+      "type": "Advance"
+    },
+    {
+      "price": "$15",
+      "type": "Day of show"
+    }
+  ],
   "date": "Mon Jun 9 | all ages",
   "minage": null,
   "tickets": null,

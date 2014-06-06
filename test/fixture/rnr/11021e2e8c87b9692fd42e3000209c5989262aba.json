@@ -10,7 +10,16 @@
     }
   ],
   "title": "MASS APPEAL",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$FREE",
+      "type": "Advance"
+    },
+    {
+      "price": "$FREE",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Nov 15 | all ages",
   "minage": null,
   "tickets": null,

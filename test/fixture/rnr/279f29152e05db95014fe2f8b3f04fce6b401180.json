@@ -10,7 +10,16 @@
     }
   ],
   "title": "Blackbird Blackbird",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$12",
+      "type": "Advance"
+    },
+    {
+      "price": "$12",
+      "type": "Day of show"
+    }
+  ],
   "date": "Mon Jun 30 | all ages",
   "minage": null,
   "tickets": null,

@@ -10,7 +10,16 @@
     }
   ],
   "title": "My Brightest Diamond",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$20",
+      "type": "Advance"
+    },
+    {
+      "price": "$22",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Sep 27 | all ages",
   "minage": null,
   "tickets": null,

@@ -10,7 +10,16 @@
     }
   ],
   "title": "POP OFF",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$",
+      "type": "Advance"
+    },
+    {
+      "price": "$",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Nov 8 - December 14, 2013 8:30 pm |",
   "minage": null,
   "tickets": null,

@@ -10,7 +10,16 @@
     }
   ],
   "title": "FREEMAN",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$17",
+      "type": "Advance"
+    },
+    {
+      "price": "$20",
+      "type": "Day of show"
+    }
+  ],
   "date": "Thu Oct 2 | all ages",
   "minage": null,
   "tickets": null,

@@ -10,7 +10,16 @@
     }
   ],
   "title": "Vacationer",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$12",
+      "type": "Advance"
+    },
+    {
+      "price": "$12",
+      "type": "Day of show"
+    }
+  ],
   "date": "Tue Jun 24 | all ages",
   "minage": null,
   "tickets": null,

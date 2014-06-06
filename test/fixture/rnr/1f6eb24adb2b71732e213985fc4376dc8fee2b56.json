@@ -10,7 +10,16 @@
     }
   ],
   "title": "Gameface",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$14",
+      "type": "Advance"
+    },
+    {
+      "price": "$14",
+      "type": "Day of show"
+    }
+  ],
   "date": "Thu Jun 26 | all ages",
   "minage": null,
   "tickets": null,

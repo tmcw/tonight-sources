@@ -10,7 +10,16 @@
     }
   ],
   "title": "Peter Matthew Bauer (of the Walkmen)",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$10",
+      "type": "Advance"
+    },
+    {
+      "price": "$12",
+      "type": "Day of show"
+    }
+  ],
   "date": "Wed Jun 25 | all ages",
   "minage": null,
   "tickets": null,

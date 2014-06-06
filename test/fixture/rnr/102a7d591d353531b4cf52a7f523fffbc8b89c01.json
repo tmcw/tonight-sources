@@ -10,7 +10,16 @@
     }
   ],
   "title": "Asher Roth",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$15",
+      "type": "Advance"
+    },
+    {
+      "price": "$17",
+      "type": "Day of show"
+    }
+  ],
   "date": "Mon Jun 16 | all ages",
   "minage": null,
   "tickets": null,

@@ -10,7 +10,16 @@
     }
   ],
   "title": "CEREMONY",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$12",
+      "type": "Advance"
+    },
+    {
+      "price": "$14",
+      "type": "Day of show"
+    }
+  ],
   "date": "Mon Jul 21 | all ages",
   "minage": null,
   "tickets": null,

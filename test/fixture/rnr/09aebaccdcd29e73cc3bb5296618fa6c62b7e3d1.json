@@ -10,7 +10,16 @@
     }
   ],
   "title": "Jolie Holland",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$14",
+      "type": "Advance"
+    },
+    {
+      "price": "$14",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sun Jun 22 | all ages",
   "minage": null,
   "tickets": null,

@@ -10,7 +10,16 @@
     }
   ],
   "title": "Brooklyn Brewery & Mash presents The Men",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$5",
+      "type": "Advance"
+    },
+    {
+      "price": "$5",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Jun 7 | all ages",
   "minage": null,
   "tickets": null,

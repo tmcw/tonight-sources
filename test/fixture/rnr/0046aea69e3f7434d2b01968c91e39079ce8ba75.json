@@ -10,7 +10,16 @@
     }
   ],
   "title": "Ha Ha Tonka",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$15",
+      "type": "Advance"
+    },
+    {
+      "price": "$15",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sun Jul 20 | all ages",
   "minage": null,
   "tickets": null,

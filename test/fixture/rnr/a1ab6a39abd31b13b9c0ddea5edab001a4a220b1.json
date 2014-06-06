@@ -10,7 +10,16 @@
     }
   ],
   "title": "IDK Fridays",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$FREE",
+      "type": "Advance"
+    },
+    {
+      "price": "$FREE",
+      "type": "Day of show"
+    }
+  ],
   "date": "Fri Sep 19 | 21+",
   "minage": 21,
   "tickets": null,

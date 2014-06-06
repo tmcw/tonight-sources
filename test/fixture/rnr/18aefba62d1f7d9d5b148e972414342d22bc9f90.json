@@ -10,7 +10,16 @@
     }
   ],
   "title": "MAKETTO by DURKL",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$FREE",
+      "type": "Advance"
+    },
+    {
+      "price": "$FREE",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Nov 8 | 21+",
   "minage": 21,
   "tickets": null,

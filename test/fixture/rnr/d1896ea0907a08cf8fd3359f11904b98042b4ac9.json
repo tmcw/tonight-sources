@@ -10,7 +10,16 @@
     }
   ],
   "title": "Jonathan Wilson (and his band)",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$18",
+      "type": "Advance"
+    },
+    {
+      "price": "$20",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sun Jun 8 | all ages",
   "minage": null,
   "tickets": null,

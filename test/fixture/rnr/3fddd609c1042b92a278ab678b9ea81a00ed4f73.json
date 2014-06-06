@@ -10,7 +10,16 @@
     }
   ],
   "title": "Andrew Jackson Jihad",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$10",
+      "type": "Advance"
+    },
+    {
+      "price": "$$10",
+      "type": "Day of show"
+    }
+  ],
   "date": "Thu Jun 12 | all ages",
   "minage": null,
   "tickets": null,

@@ -10,7 +10,16 @@
     }
   ],
   "title": "Perfect Pussy & Joanna Gruesome",
-  "prices": [],
+  "prices": [
+    {
+      "price": "$12",
+      "type": "Advance"
+    },
+    {
+      "price": "$12",
+      "type": "Day of show"
+    }
+  ],
   "date": "Sat Aug 30 | all ages",
   "minage": null,
   "tickets": null,

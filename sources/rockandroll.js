@@ -66,6 +66,16 @@ function parseShowBody(body) {
         });
     });
 
+    var prices = [];
+
+    $('#event-info-single .info_right>div').each(function(i, row) {
+        var txt = $(row).text().split('|');
+        prices.push({
+            price: txt[0].trim(),
+            type: txt[1].trim()
+        });
+    });
+
     var minage = null;
 
     if ($('.artist_date-single').text().match(/21\+/)) {
