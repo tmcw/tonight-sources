@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "8:00 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "7:00 pm",
+      "type": "DOORS"
+    }
+  ],
   "title": "Ha Ha Tonka",
   "prices": [],
   "date": "Sun Jul 20 | all ages",

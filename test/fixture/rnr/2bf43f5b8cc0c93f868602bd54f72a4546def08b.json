@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "10:00 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "6:00 pm",
+      "type": "DOORS"
+    }
+  ],
   "title": "MAKETTO by DURKL",
   "prices": [],
   "date": "Sat Oct 11 | 21+",

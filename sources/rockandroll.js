@@ -57,7 +57,14 @@ function parseShowBody(body) {
     var costStageDoors = $('.show-text').text().trim().split('/');
 
     var prices = parsePrices(costStageDoors);
-    var times = parseTimes(costStageDoors);
+    var times = [];
+
+    $('#event-info-single .info_left>div').each(function(i, row) {
+        times.push({
+            time: $('.date_right', row).text().trim(),
+            type: $('.date_left', row).text().trim()
+        });
+    });
 
     var minage = null;
 
@@ -83,15 +90,16 @@ function parseShowBody(body) {
         }
     });
 
-    times = times.map(function(time) {
-        var rmday = date.replace(/^(\w+)\s/, '').trim();
-        return {
-            label: time[0],
-            formatted: time[1],
-            stamp: +moment(rmday + ' ' + time[1], 'MMM D h:mma').toDate()
-        };
-    });
+    // times = times.map(function(time) {
+    //     var rmday = date.replace(/^(\w+)\s/, '').trim();
+    //     return {
+    //         label: time.type,
+    //         formatted: time.time,
+    //         stamp: +moment(rmday + ' ' + time[1], 'MMM D h:mma').toDate()
+    //     };
+    // });
 
+    /*
     console.log({
         times: times,
         title: title,
@@ -103,6 +111,7 @@ function parseShowBody(body) {
         soundcloud: soundcloud,
         venue_id: VENUEID
     });
+    */
 
     return {
         times: times,
@@ -142,17 +151,6 @@ function parsePrices(segs) {
     });
 
     return prices;
-}
-
-function parseTimes(segs) {
-    var times = [];
-    segs.forEach(function(str) {
-        var match = str.match(/(\d+:\d+)/);
-        if (match) {
-            times.push(['doors', match[1] + 'pm']);
-        }
-    });
-    return times;
 }
 
 function parseShow(show) {

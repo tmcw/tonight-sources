@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "7:30 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "6:30 pm",
+      "type": "DOORS"
+    }
+  ],
   "title": "CEREMONY",
   "prices": [],
   "date": "Mon Jul 21 | all ages",

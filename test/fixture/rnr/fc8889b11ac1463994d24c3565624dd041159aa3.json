@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "10:00 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "6:00 pm",
+      "type": "DOORS"
+    }
+  ],
   "title": "Lightwaves",
   "prices": [],
   "date": "Fri Sep 12 | 21+",

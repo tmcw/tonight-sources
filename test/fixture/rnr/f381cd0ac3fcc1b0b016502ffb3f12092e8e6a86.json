@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "8:30 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "6:00 pm",
+      "type": "DOORS"
+    }
+  ],
   "title": "POP OFF",
   "prices": [],
   "date": "Sat Sep 6 | 21+",

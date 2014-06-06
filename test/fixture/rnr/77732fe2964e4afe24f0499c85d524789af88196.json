@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "6:00 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "6:00 pm",
+      "type": "DOORS"
+    }
+  ],
   "title": "Spelling Bee Buzzzzz",
   "prices": [],
   "date": "Fri Jun 13 | 21+",

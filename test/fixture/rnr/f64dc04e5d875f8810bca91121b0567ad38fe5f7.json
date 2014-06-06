@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "8:30 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "",
+      "type": "DOORS"
+    }
+  ],
   "title": "POP OFF",
   "prices": [],
   "date": "Sat Nov 1 - November 1, 2015 2:00 am |",

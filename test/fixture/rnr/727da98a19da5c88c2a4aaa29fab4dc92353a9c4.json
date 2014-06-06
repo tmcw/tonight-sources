@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "9:30 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "8:00 pm",
+      "type": "DOORS"
+    }
+  ],
   "title": "Feed The Meter",
   "prices": [],
   "date": "Fri Jun 6 | all ages",

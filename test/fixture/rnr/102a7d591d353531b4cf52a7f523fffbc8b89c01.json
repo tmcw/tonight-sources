@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "8:30 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "7:30 pm",
+      "type": "DOORS"
+    }
+  ],
   "title": "Asher Roth",
   "prices": [],
   "date": "Mon Jun 16 | all ages",

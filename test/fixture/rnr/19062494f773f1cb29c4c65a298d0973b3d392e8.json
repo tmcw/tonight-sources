@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "11:30 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "",
+      "type": "DOORS"
+    }
+  ],
   "title": "Djs Rex Riot & Basscamp",
   "prices": [],
   "date": "Sat Aug 9 |",

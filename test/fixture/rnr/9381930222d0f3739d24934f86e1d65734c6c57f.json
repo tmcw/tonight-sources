@@ -1,5 +1,14 @@
 {
-  "times": [],
+  "times": [
+    {
+      "time": "9:30 pm",
+      "type": "SHOW"
+    },
+    {
+      "time": "",
+      "type": "DOORS"
+    }
+  ],
   "title": "IDK Fridays",
   "prices": [],
   "date": "Fri Jun 20 | 21+",
