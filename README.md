@@ -7,7 +7,7 @@ The purpose of this repository is to build scrapers for the top venues in DC
 * DC9: http://www.dcnine.com/calendar/
 * 9:30 Club: http://www.930.com/concerts/
 * Black Cat: http://www.blackcatdc.com/schedule.html
-* Rock & Roll Hotel: http://www.rockandrollhoteldc.com/
+* Rock & Roll Hotel: http://www.rockandrollhoteldc.com/ http://tri.be/shop/wordpress-events-calendar/
 * U Street: http://www.ustreetmusichall.com/calendar/
 * Blues Alley: http://www.bluesalley.com/events.cfm
 * Sixth & I: http://www.sixthandi.org/events/

@@ -1,0 +1,18 @@
+{
+  "times": [],
+  "title": "The Jezabels",
+  "prices": [],
+  "date": "Wed Jun 18 | all ages",
+  "minage": null,
+  "tickets": null,
+  "youtube": [
+    "http://www.youtube.com/embed/5vl9ZVqC7rw",
+    "http://www.youtube.com/embed/XRTwz4Z1_ss",
+    "http://www.youtube.com/embed/IvCr1UAcPc4"
+  ],
+  "soundcloud": [
+    "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F2417583&color=ff6600&auto_play=false&show_artwork=true",
+    "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F12946724&color=ff6600&auto_play=false&show_artwork=true"
+  ],
+  "venue_id": "rnr"
+}
