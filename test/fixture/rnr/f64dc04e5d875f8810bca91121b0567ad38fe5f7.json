@@ -12,11 +12,11 @@
   "title": "POP OFF",
   "prices": [
     {
-      "price": "$",
+      "price": null,
       "type": "Advance"
     },
     {
-      "price": "$",
+      "price": null,
       "type": "Day of show"
     }
   ],

@@ -12,11 +12,11 @@
   "title": "Fucked Up",
   "prices": [
     {
-      "price": "$15",
+      "price": 15,
       "type": "Advance"
     },
     {
-      "price": "$15",
+      "price": 15,
       "type": "Day of show"
     }
   ],

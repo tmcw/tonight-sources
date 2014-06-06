@@ -12,12 +12,12 @@
   "title": "still ill",
   "prices": [
     {
-      "price": "$FREE",
-      "type": "Advance"
+      "price": 0,
+      "type": "any"
     },
     {
-      "price": "$FREE",
-      "type": "Day of show"
+      "price": 0,
+      "type": "any"
     }
   ],
   "date": "Fri Aug 29 | 21+",

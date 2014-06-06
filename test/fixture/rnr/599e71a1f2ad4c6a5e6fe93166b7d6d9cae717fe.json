@@ -12,11 +12,11 @@
   "title": "UNITED NATIONS",
   "prices": [
     {
-      "price": "$$12",
+      "price": null,
       "type": "Advance"
     },
     {
-      "price": "$$12",
+      "price": null,
       "type": "Day of show"
     }
   ],

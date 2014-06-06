@@ -12,11 +12,11 @@
   "title": "Asher Roth",
   "prices": [
     {
-      "price": "$15",
+      "price": 15,
       "type": "Advance"
     },
     {
-      "price": "$17",
+      "price": 17,
       "type": "Day of show"
     }
   ],

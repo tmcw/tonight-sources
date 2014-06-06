@@ -12,11 +12,11 @@
   "title": "My Brightest Diamond",
   "prices": [
     {
-      "price": "$20",
+      "price": 20,
       "type": "Advance"
     },
     {
-      "price": "$22",
+      "price": 22,
       "type": "Day of show"
     }
   ],

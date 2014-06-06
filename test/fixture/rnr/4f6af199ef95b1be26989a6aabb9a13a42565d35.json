@@ -12,11 +12,11 @@
   "title": "Peter Matthew Bauer (of the Walkmen)",
   "prices": [
     {
-      "price": "$10",
+      "price": 10,
       "type": "Advance"
     },
     {
-      "price": "$12",
+      "price": 12,
       "type": "Day of show"
     }
   ],

@@ -12,11 +12,11 @@
   "title": "Jolie Holland",
   "prices": [
     {
-      "price": "$14",
+      "price": 14,
       "type": "Advance"
     },
     {
-      "price": "$14",
+      "price": 14,
       "type": "Day of show"
     }
   ],

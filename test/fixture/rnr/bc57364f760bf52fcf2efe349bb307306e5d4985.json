@@ -12,11 +12,11 @@
   "title": "Kitten",
   "prices": [
     {
-      "price": "$15",
+      "price": 15,
       "type": "Advance"
     },
     {
-      "price": "$$15",
+      "price": null,
       "type": "Day of show"
     }
   ],

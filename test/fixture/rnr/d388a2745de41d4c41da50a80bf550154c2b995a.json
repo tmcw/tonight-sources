@@ -12,11 +12,11 @@
   "title": "Djs Rex Riot & Basscamp",
   "prices": [
     {
-      "price": "$",
+      "price": null,
       "type": "Advance"
     },
     {
-      "price": "$",
+      "price": null,
       "type": "Day of show"
     }
   ],

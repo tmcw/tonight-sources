@@ -12,11 +12,11 @@
   "title": "Dead  Kennedys",
   "prices": [
     {
-      "price": "$25",
+      "price": 25,
       "type": "Advance"
     },
     {
-      "price": "$25",
+      "price": 25,
       "type": "Day of show"
     }
   ],

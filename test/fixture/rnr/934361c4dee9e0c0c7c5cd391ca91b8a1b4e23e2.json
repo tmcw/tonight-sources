@@ -12,12 +12,12 @@
   "title": "MASS APPEAL",
   "prices": [
     {
-      "price": "$FREE",
-      "type": "Advance"
+      "price": 0,
+      "type": "any"
     },
     {
-      "price": "$FREE",
-      "type": "Day of show"
+      "price": 0,
+      "type": "any"
     }
   ],
   "date": "Sat Dec 20 | all ages",

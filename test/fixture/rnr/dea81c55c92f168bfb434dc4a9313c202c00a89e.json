@@ -12,11 +12,11 @@
   "title": "Cayucas",
   "prices": [
     {
-      "price": "$13",
+      "price": 13,
       "type": "Advance"
     },
     {
-      "price": "$15",
+      "price": 15,
       "type": "Day of show"
     }
   ],

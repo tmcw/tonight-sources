@@ -12,11 +12,11 @@
   "title": "CEREMONY",
   "prices": [
     {
-      "price": "$12",
+      "price": 12,
       "type": "Advance"
     },
     {
-      "price": "$14",
+      "price": 14,
       "type": "Day of show"
     }
   ],

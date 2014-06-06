@@ -12,11 +12,11 @@
   "title": "FREEMAN",
   "prices": [
     {
-      "price": "$17",
+      "price": 17,
       "type": "Advance"
     },
     {
-      "price": "$20",
+      "price": 20,
       "type": "Day of show"
     }
   ],

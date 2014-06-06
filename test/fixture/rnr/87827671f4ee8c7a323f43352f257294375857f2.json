@@ -12,11 +12,11 @@
   "title": "DRAG @ Rock & Roll Hotel",
   "prices": [
     {
-      "price": "$20",
+      "price": 20,
       "type": "Advance"
     },
     {
-      "price": "$20",
+      "price": 20,
       "type": "Day of show"
     }
   ],

@@ -70,9 +70,18 @@ function parseShowBody(body) {
 
     $('#event-info-single .info_right>div').each(function(i, row) {
         var txt = $(row).text().split('|');
+        var price = txt[0].trim();
+        var type = txt[1].trim();
+        if (price === '$FREE') {
+            price = 0;
+            type = 'any';
+        } else {
+            price = parseFloat(price.replace('$', ''));
+            if (isNaN(price)) price = null;
+        }
         prices.push({
-            price: txt[0].trim(),
-            type: txt[1].trim()
+            price: price,
+            type: type
         });
     });
 

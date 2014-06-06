@@ -12,11 +12,11 @@
   "title": "OOIOO",
   "prices": [
     {
-      "price": "$15",
+      "price": 15,
       "type": "Advance"
     },
     {
-      "price": "$18",
+      "price": 18,
       "type": "Day of show"
     }
   ],
