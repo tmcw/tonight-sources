@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "DC9 Nightclub",
+        "id": "dc9",
+        "address": "1940 9th St NW",
+        "phone": "(202) 483-5000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0241319,
+          38.9166845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "blackcat",
+        "title": "Black Cat",
+        "phone": "(202) 667-4490",
+        "address": "1811 14th St NW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0317781,
+          38.9146071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rock N Roll Hotel",
+        "id": "rnr",
+        "address": "1353 H Street N.E Washington, DC 20002",
+        "phone": "(202) 388-7625"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9865552,
+          38.899994
+        ]
+      }
+    }
+  ]
+}
