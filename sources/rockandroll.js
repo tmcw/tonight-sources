@@ -14,11 +14,16 @@ else request = require('request');
 var ENDPOINT = 'http://www.rockandrollhoteldc.com/calendar/upcoming/';
 var VENUEID = 'rnr';
 
-// request(ENDPOINT, onload);
+var LIMIT = 3;
 
-function onload(err, response, body) {
-    if (err) throw err;
+module.exports.load = function(callback) {
+    request(ENDPOINT, function(err, response, body) {
+        if (err) throw err;
+        processBody(body, callback);
+    });
+}
 
+function processBody(body, callback) {
     var $ = cheerio.load(body);
     var links = [];
 
@@ -26,17 +31,22 @@ function onload(err, response, body) {
         links.push($(elem).attr('href'));
     });
 
+    if (LIMIT) links = links.slice(0, LIMIT);
+
     var q = queue(1);
     links.forEach(function(link) {
         q.defer(getShow, link);
     });
 
     q.awaitAll(function(err, res) {
+        if (err) return callback(err);
         var events = res.map(parseShow);
+        callback(null, events);
     });
 }
 
 function getShow(link, callback) {
+    console.error('getting ', link);
     request(link, showload);
 
     function showload(err, response, body) {
@@ -108,29 +118,6 @@ function parseShowBody(body) {
             tickets = href;
         }
     });
-
-    // times = times.map(function(time) {
-    //     var rmday = date.replace(/^(\w+)\s/, '').trim();
-    //     return {
-    //         label: time.type,
-    //         formatted: time.time,
-    //         stamp: +moment(rmday + ' ' + time[1], 'MMM D h:mma').toDate()
-    //     };
-    // });
-
-    /*
-    console.log({
-        times: times,
-        title: title,
-        prices: prices,
-        date: date,
-        minage: minage,
-        tickets: tickets,
-        youtube: youtube,
-        soundcloud: soundcloud,
-        venue_id: VENUEID
-    });
-    */
 
     return {
         times: times,

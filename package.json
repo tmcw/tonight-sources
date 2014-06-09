@@ -21,6 +21,7 @@
     "glob": "~4.0.2"
   },
   "devDependencies": {
-    "tap": "~0.4.9"
+    "tap": "~0.4.9",
+    "lodash.flatten": "~2.4.1"
   }
 }

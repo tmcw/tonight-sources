@@ -2,6 +2,8 @@ var queue = require('queue-async'),
     moment = require('moment'),
     cheerio = require('cheerio');
 
+var LIMIT = 3;
+
 /**
  * CACHE: save results to disk
  * MOCK: use results on disk
@@ -14,9 +16,14 @@ var ENDPOINT = 'http://www.dcnine.com/calendar/';
 var VENUEID = 'dc9';
 
 // request(ENDPOINT, onload);
+module.exports.load = function(callback) {
+    request(ENDPOINT, function(err, response, body) {
+        if (err) throw err;
+        processBody(body, callback);
+    });
+}
 
-function onload(err, response, body) {
-    if (err) throw err;
+function processBody(body, callback) {
 
     var $ = cheerio.load(body);
     var links = [];
@@ -25,14 +32,19 @@ function onload(err, response, body) {
         links.push($('a', elem).attr('href'));
     });
 
+    if (LIMIT) links = links.slice(0, LIMIT);
+
     var q = queue(1);
+
     links.forEach(function(link) {
+        console.error('getting ', link);
         q.defer(getShow, link);
     });
 
     q.awaitAll(function(err, res) {
+        if (err) return callback(err);
         var events = res.map(parseShow);
-        console.log(events);
+        callback(null, events);
     });
 }
 
@@ -156,7 +168,7 @@ function parsePrices(str) {
 }
 
 function parseShow(show) {
-    var data = parseShowBody(show);
+    var data = parseShowBody(show.body);
     data.url = show.url;
     return data;
 }

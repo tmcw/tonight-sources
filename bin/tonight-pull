@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+var queue = require('queue-async'),
+    flatten = require('lodash.flatten');
+
+var sources = [
+    // require('../sources/dc9'),
+    require('../sources/blackcat'),
+    // require('../sources/rockandroll')
+];
+
+var q = queue(1);
+
+sources.forEach(function(source) {
+    q.defer(source.load);
+});
+
+q.awaitAll(function(err, res) {
+    if (err) throw err;
+    process.stdout.write(JSON.stringify(flatten(res), null, 2));
+});
