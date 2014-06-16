@@ -23,9 +23,9 @@ module.exports.load = function(callback) {
     });
 }
 
-module.exports.load(function(err, res) {
-    console.log(JSON.stringify(res, null, 2));
-});
+// module.exports.load(function(err, res) {
+//     console.log(JSON.stringify(res, null, 2));
+// });
 
 function processBody(body, callback) {
     var $ = cheerio.load(body);

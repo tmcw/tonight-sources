@@ -24,7 +24,7 @@ module.exports.load = function(callback) {
 }
 
 module.exports.load(function(err, res) {
-    process.stdout.write(JSON.stringify(res, null, 2));
+    console.error(JSON.stringify(res, null, 2));
 });
 
 function processBody(body, callback) {
@@ -102,7 +102,7 @@ function parseShowBody(body) {
     var tickets = null;
 
     var href = $('a.tickets').attr('href');
-    if (href.match(/ticketfly/g)) {
+    if (href && href.match(/ticketfly/g)) {
         tickets = href;
     }
 

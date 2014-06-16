@@ -4,9 +4,11 @@ var queue = require('queue-async'),
     flatten = require('lodash.flatten');
 
 var sources = [
-    // require('../sources/dc9'),
+    require('../sources/dc9'),
     require('../sources/blackcat'),
-    // require('../sources/rockandroll')
+    require('../sources/rockandroll'),
+    require('../sources/velvetlounge'),
+    require('../sources/ustreet')
 ];
 
 var q = queue(1);

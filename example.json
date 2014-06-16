@@ -1,0 +1,814 @@
+[
+  {
+    "times": [
+      {
+        "label": "Show",
+        "formatted": "8:30pm",
+        "stamp": 1402878600000
+      },
+      {
+        "label": "Doors",
+        "formatted": "8:00pm",
+        "stamp": 1402876800000
+      }
+    ],
+    "title": "The Trews",
+    "prices": [
+      {
+        "price": 10,
+        "type": "advance"
+      },
+      {
+        "price": 12,
+        "type": "door"
+      }
+    ],
+    "date": "SUN JUN 15",
+    "minage": 0,
+    "tickets": "http://www.ticketfly.com/purchase/event/544965?utm_medium=bks",
+    "youtube": [
+      "//www.youtube.com/embed/mDkwOHkdHfQ"
+    ],
+    "soundcloud": [],
+    "venue_id": "dc9",
+    "url": "http://www.dcnine.com/event/the-trews/"
+  },
+  {
+    "times": [
+      {
+        "label": "Show",
+        "formatted": "6:00pm",
+        "stamp": 1402956000000
+      },
+      {
+        "label": "Doors",
+        "formatted": "5:00pm",
+        "stamp": 1402952400000
+      }
+    ],
+    "title": "World Cup 2014 – USA",
+    "prices": [
+      {
+        "price": 0,
+        "type": "any"
+      }
+    ],
+    "date": "MON JUN 16",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "dc9",
+    "url": "http://www.dcnine.com/event/world-cup-2014-usa/"
+  },
+  {
+    "times": [
+      {
+        "label": "Show",
+        "formatted": "9:00pm",
+        "stamp": 1403053200000
+      },
+      {
+        "label": "Doors",
+        "formatted": "8:30pm",
+        "stamp": 1403051400000
+      }
+    ],
+    "title": "Young & Sick",
+    "prices": [
+      {
+        "price": 10,
+        "type": "advance"
+      },
+      {
+        "price": 12,
+        "type": "door"
+      }
+    ],
+    "date": "TUE JUN 17",
+    "minage": 0,
+    "tickets": "http://www.ticketfly.com/purchase/event/535165?utm_medium=bks",
+    "youtube": [
+      "//www.youtube.com/embed/GCa28u7Y-rk",
+      "//www.youtube.com/embed/3IAGz0iF3xc"
+    ],
+    "soundcloud": [
+      "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/5083633&auto_play=false&hide_related=false&visual=true"
+    ],
+    "venue_id": "dc9",
+    "url": "http://www.dcnine.com/event/young-sick/"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9:00pm",
+        "stamp": 1402707600000
+      }
+    ],
+    "title": "STEVE HOFSTETTER",
+    "prices": [
+      {
+        "type": "Mainstage",
+        "price": 12
+      }
+    ],
+    "date": "Friday June 13",
+    "minage": null,
+    "tickets": "http://www.ticketfly.com/purchase/event/592369?utm_medium=bks",
+    "youtube": [
+      "//www.youtube.com/embed/3AMeujRDVuc?rel=0"
+    ],
+    "soundcloud": [],
+    "venue_id": "blackcat",
+    "url": "http://www.blackcatdc.com/shows/summer-comedy.html"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "8:452pm",
+        "stamp": 1402706700000
+      }
+    ],
+    "title": "HOUSE OF SWEETBOTTOM BLUES AND BURLESQE REVUE",
+    "prices": [
+      {
+        "type": "advance",
+        "price": 12
+      },
+      {
+        "type": "doors",
+        "price": 15
+      }
+    ],
+    "date": "Friday June 13",
+    "minage": 21,
+    "tickets": "http://www.ticketfly.com/purchase/event/578561?utm_medium=bks",
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "blackcat",
+    "url": "http://www.blackcatdc.com/shows/burlesque.html"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9:30pm",
+        "stamp": 1402795800000
+      }
+    ],
+    "title": "CRYFEST",
+    "prices": [
+      {
+        "type": "Mainstage",
+        "price": 10
+      }
+    ],
+    "date": "Saturday June 14",
+    "minage": null,
+    "tickets": "http://www.ticketfly.com/purchase/event/575999?utm_medium=bks",
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "blackcat",
+    "url": "http://www.blackcatdc.com/shows/cryfest.html"
+  },
+  {
+    "times": [
+      {
+        "time": "8:30 pm",
+        "type": "SHOW"
+      },
+      {
+        "time": "7:30 pm",
+        "type": "DOORS"
+      }
+    ],
+    "title": "Asher Roth",
+    "prices": [
+      {
+        "price": 15,
+        "type": "Advance"
+      },
+      {
+        "price": 17,
+        "type": "Day of show"
+      }
+    ],
+    "date": "Mon Jun 16 | all ages",
+    "minage": null,
+    "tickets": null,
+    "youtube": [
+      "http://www.youtube.com/embed/D_w26Gzr5kU"
+    ],
+    "soundcloud": [
+      "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F2591390&auto_play=false&hide_related=false&visual=true"
+    ],
+    "venue_id": "rnr",
+    "url": "http://www.rockandrollhoteldc.com/calendar/asher-roth/"
+  },
+  {
+    "times": [
+      {
+        "time": "8:00 pm",
+        "type": "SHOW"
+      },
+      {
+        "time": "7:00 pm",
+        "type": "DOORS"
+      }
+    ],
+    "title": "Dead  Kennedys",
+    "prices": [
+      {
+        "price": 25,
+        "type": "Advance"
+      },
+      {
+        "price": 25,
+        "type": "Day of show"
+      }
+    ],
+    "date": "Tue Jun 17 | all ages",
+    "minage": null,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "rnr",
+    "url": "http://www.rockandrollhoteldc.com/calendar/dead-kennedys/"
+  },
+  {
+    "times": [
+      {
+        "time": "8:00 pm",
+        "type": "SHOW"
+      },
+      {
+        "time": "7:00 pm",
+        "type": "DOORS"
+      }
+    ],
+    "title": "The Jezabels",
+    "prices": [
+      {
+        "price": 15,
+        "type": "Advance"
+      },
+      {
+        "price": 15,
+        "type": "Day of show"
+      }
+    ],
+    "date": "Wed Jun 18 | all ages",
+    "minage": null,
+    "tickets": null,
+    "youtube": [
+      "http://www.youtube.com/embed/5vl9ZVqC7rw",
+      "http://www.youtube.com/embed/XRTwz4Z1_ss",
+      "http://www.youtube.com/embed/IvCr1UAcPc4"
+    ],
+    "soundcloud": [
+      "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F2417583&color=ff6600&auto_play=false&show_artwork=true",
+      "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F12946724&color=ff6600&auto_play=false&show_artwork=true"
+    ],
+    "venue_id": "rnr",
+    "url": "http://www.rockandrollhoteldc.com/calendar/the-jezabels/"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Bree",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Tuesday17Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Bare Left",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Wednesday18Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "The Baby Grand",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Thursday19Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Ocean Versus Daughter",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Friday20Jun",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Letitia VanSant",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Sunday22Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "American Verse",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Monday23Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Vinny Vegas",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Friday27Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Harmonic Blue",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Saturday28Jun",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "The Mellish",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Thursday10Jul",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Grex",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Wednesday16Jul",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Caustic Casanova [7\" Release Party!]",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Friday18Jul",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Copstabber",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Friday25Jul",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Nice Breeze",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Saturday26Jul",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Exar Kun",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Wednesday30Jul",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "The Marquee",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Tuesday05Aug",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Wise Eyes",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Monday11Aug",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Footwerk",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Saturday16Aug",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Nice Breeze",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Wednesday27Aug",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [],
+    "title": "BadBadNotGood",
+    "prices": [
+      {
+        "price": 15,
+        "type": "advance"
+      }
+    ],
+    "date": "Sun, June 15, 2014",
+    "minage": null,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "ustreet",
+    "url": "http://www.ustreetmusichall.com/event/561451-badbadnotgood-washington/"
+  },
+  {
+    "times": [],
+    "title": "Heems",
+    "prices": [
+      {
+        "price": 15,
+        "type": "advance"
+      }
+    ],
+    "date": "Tue, June 17, 2014",
+    "minage": null,
+    "tickets": "http://www.ticketfly.com/purchase/event/584745",
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "ustreet",
+    "url": "http://www.ustreetmusichall.com/event/584745-heems-washington/"
+  },
+  {
+    "times": [],
+    "title": "Ghost Beach and Panama Wedding",
+    "prices": [
+      {
+        "price": 12,
+        "type": "advance"
+      }
+    ],
+    "date": "Wed, June 18, 2014",
+    "minage": null,
+    "tickets": "http://www.ticketfly.com/purchase/event/579593",
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "ustreet",
+    "url": "http://www.ustreetmusichall.com/event/579593-ghost-beach-panama-wedding-washington/"
+  }
+]
