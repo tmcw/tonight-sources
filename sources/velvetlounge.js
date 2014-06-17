@@ -14,20 +14,18 @@ else request = require('request');
 var ENDPOINT = 'http://velvetloungedc.com/events/',
     VENUEID = 'velvetlounge';
 
-var LIMIT = 3;
-
 module.exports.load = function(callback) {
     request(ENDPOINT, function(err, response, body) {
         if (err) throw err;
-        processBody(body, callback);
+        callback(null, processBody(body));
     });
 }
 
 // module.exports.load(function(err, res) {
-//     console.log(JSON.stringify(res, null, 2));
+//     console.error(JSON.stringify(res, null, 2));
 // });
 
-function processBody(body, callback) {
+function processBody(body) {
     var $ = cheerio.load(body);
 
     var res = $('.tribe-events-loop .hentry');
@@ -37,10 +35,11 @@ function processBody(body, callback) {
         events.push(parseShowBody($, elem));
     });
 
-    callback(null, events);
+    return events;
 }
 
 module.exports.parseShowBody = parseShowBody;
+module.exports.processBody = processBody;
 
 function parseShowBody($, elem) {
     var title = $('.custom-event-title h2', elem).text().trim(),

@@ -1,0 +1,488 @@
+[
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Bree",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Tuesday17Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Bare Left",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Wednesday18Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "The Baby Grand",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Thursday19Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Ocean Versus Daughter",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Friday20Jun",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Letitia VanSant",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Sunday22Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "American Verse",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Monday23Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Vinny Vegas",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Friday27Jun",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Harmonic Blue",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Saturday28Jun",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "The Mellish",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Thursday10Jul",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Grex",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Wednesday16Jul",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Caustic Casanova [7\" Release Party!]",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Friday18Jul",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Copstabber",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Friday25Jul",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Nice Breeze",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Saturday26Jul",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Exar Kun",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Wednesday30Jul",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "The Marquee",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Tuesday05Aug",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Wise Eyes",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Monday11Aug",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      },
+      {
+        "label": "show",
+        "formatted": "9:30pm",
+        "stamp": 1402394400000
+      }
+    ],
+    "title": "Footwerk",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Saturday16Aug",
+    "minage": 21,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  },
+  {
+    "times": [
+      {
+        "label": "doors",
+        "formatted": "7:30pm",
+        "stamp": 1402221600000
+      },
+      {
+        "label": "show",
+        "formatted": "9pm",
+        "stamp": 1402329600000
+      }
+    ],
+    "title": "Nice Breeze",
+    "prices": [
+      {
+        "type": "doors",
+        "price": 8
+      }
+    ],
+    "date": "Wednesday27Aug",
+    "minage": 18,
+    "tickets": null,
+    "youtube": [],
+    "soundcloud": [],
+    "venue_id": "velvetlounge"
+  }
+]
