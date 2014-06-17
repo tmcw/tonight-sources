@@ -3,12 +3,7 @@
     "Doors: 7:00 pm"
   ],
   "title": "A-Trak",
-  "prices": [
-    {
-      "price": "",
-      "type": "unknown"
-    }
-  ],
+  "prices": "",
   "date": "Thu 6/19/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/499657",

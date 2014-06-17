@@ -122,3 +122,7 @@ function parseShow(show) {
     data.url = show.url;
     return data;
 }
+
+function parsePrices(prices) {
+    return prices;
+}

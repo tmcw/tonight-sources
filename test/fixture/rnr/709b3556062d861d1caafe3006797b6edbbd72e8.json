@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "9:30 pm",
-      "type": "SHOW"
+      "stamp": 1406943000000,
+      "label": "SHOW"
     },
     {
       "time": "",
-      "type": "DOORS"
+      "stamp": 1406865600000,
+      "label": "DOORS"
     }
   ],
   "title": "CLSTRFCK",
@@ -20,7 +22,7 @@
       "type": "any"
     }
   ],
-  "date": "Fri Aug 1 | 21+",
+  "date": "Fri Aug 1",
   "minage": 21,
   "tickets": null,
   "youtube": [],

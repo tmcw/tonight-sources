@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "9:30 pm",
-      "type": "SHOW"
+      "stamp": 1414805400000,
+      "label": "SHOW"
     },
     {
       "time": "",
-      "type": "DOORS"
+      "stamp": 1414728000000,
+      "label": "DOORS"
     }
   ],
   "title": "still ill",
@@ -20,7 +22,7 @@
       "type": "any"
     }
   ],
-  "date": "Fri Oct 31 | 21+",
+  "date": "Fri Oct 31",
   "minage": 21,
   "tickets": null,
   "youtube": [],

@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "10:00 pm",
-      "type": "SHOW"
+      "stamp": 1413079200000,
+      "label": "SHOW"
     },
     {
       "time": "6:00 pm",
-      "type": "DOORS"
+      "stamp": 1413064800000,
+      "label": "DOORS"
     }
   ],
   "title": "MAKETTO by DURKL",
@@ -20,7 +22,7 @@
       "type": "any"
     }
   ],
-  "date": "Sat Oct 11 | 21+",
+  "date": "Sat Oct 11",
   "minage": 21,
   "tickets": null,
   "youtube": [],

@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "10:00 pm",
-      "type": "SHOW"
+      "stamp": 1403402400000,
+      "label": "SHOW"
     },
     {
       "time": "6:00 pm",
-      "type": "DOORS"
+      "stamp": 1403388000000,
+      "label": "DOORS"
     }
   ],
   "title": "MASS APPEAL",
@@ -20,8 +22,8 @@
       "type": "any"
     }
   ],
-  "date": "Sat Jun 21 | all ages",
-  "minage": null,
+  "date": "Sat Jun 21",
+  "minage": 0,
   "tickets": null,
   "youtube": [],
   "soundcloud": [],

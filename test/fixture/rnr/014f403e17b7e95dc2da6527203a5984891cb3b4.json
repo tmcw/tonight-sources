@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "7:30 pm",
-      "type": "SHOW"
+      "stamp": 1410910200000,
+      "label": "SHOW"
     },
     {
       "time": "6:30 pm",
-      "type": "DOORS"
+      "stamp": 1410906600000,
+      "label": "DOORS"
     }
   ],
   "title": "Joyce Manor",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Tue Sep 16 | all ages",
-  "minage": null,
+  "date": "Tue Sep 16",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/jCuhb-RlbGk"

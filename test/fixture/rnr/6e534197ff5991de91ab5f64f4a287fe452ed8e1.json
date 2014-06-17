@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "7:30 pm",
-      "type": "SHOW"
+      "stamp": 1409441400000,
+      "label": "SHOW"
     },
     {
       "time": "6:30 pm",
-      "type": "DOORS"
+      "stamp": 1409437800000,
+      "label": "DOORS"
     }
   ],
   "title": "Perfect Pussy & Joanna Gruesome",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Sat Aug 30 | all ages",
-  "minage": null,
+  "date": "Sat Aug 30",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/Er2-ujXSpw8",

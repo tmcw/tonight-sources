@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "10:00 pm",
-      "type": "SHOW"
+      "stamp": 1414288800000,
+      "label": "SHOW"
     },
     {
       "time": "6:00 pm",
-      "type": "DOORS"
+      "stamp": 1414274400000,
+      "label": "DOORS"
     }
   ],
   "title": "STANK",
@@ -20,7 +22,7 @@
       "type": "any"
     }
   ],
-  "date": "Sat Oct 25 | 21+",
+  "date": "Sat Oct 25",
   "minage": 21,
   "tickets": null,
   "youtube": [],

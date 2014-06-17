@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1411862400000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1411858800000,
+      "label": "DOORS"
     }
   ],
   "title": "My Brightest Diamond",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Sat Sep 27 | all ages",
-  "minage": null,
+  "date": "Sat Sep 27",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/F0kJmsHPT3o"

@@ -4,7 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "DC9 Nightclub",
+        "name": "DC9 Nightclub",
+        "shortname": "DC9",
         "id": "dc9",
         "address": "1940 9th St NW",
         "phone": "(202) 483-5000",
@@ -22,7 +23,8 @@
       "type": "Feature",
       "properties": {
         "id": "blackcat",
-        "title": "Black Cat",
+        "name": "Black Cat",
+        "shortname": "Black Cat",
         "phone": "2026674490",
         "address": "1811 14th St NW",
         "color": "rgb(30, 130, 76)"
@@ -39,6 +41,7 @@
       "type": "Feature",
       "properties": {
         "name": "Rock N Roll Hotel",
+        "shortname": "RNR Hotel",
         "id": "rnr",
         "address": "1353 H Street N.E Washington, DC 20002",
         "phone": "2023887625",
@@ -56,6 +59,7 @@
       "type": "Feature",
       "properties": {
         "name": "Velvet Lounge",
+        "shortname": "Velvet Lounge",
         "id": "velvetlounge",
         "address": "915 U Street NW Washington, DC",
         "phone": "2024623213",
@@ -72,7 +76,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "U Street Music Hall",
+        "name": "U Street Music Hall",
+        "shortname": "U Street",
         "id": "ustreet",
         "address": "1115 U Street NW, Washington D.C.",
         "phone": "2025881889",

@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "11:30 pm",
-      "type": "SHOW"
+      "stamp": 1404012600000,
+      "label": "SHOW"
     },
     {
       "time": "11:30 pm",
-      "type": "DOORS"
+      "stamp": 1404012600000,
+      "label": "DOORS"
     }
   ],
   "title": "CRUNT (LATE NITE EVENT)",
@@ -20,7 +22,7 @@
       "type": "any"
     }
   ],
-  "date": "Sat Jun 28 | 21+",
+  "date": "Sat Jun 28",
   "minage": 21,
   "tickets": null,
   "youtube": [],

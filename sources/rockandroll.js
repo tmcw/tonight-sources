@@ -64,15 +64,22 @@ function parseShowBody(body) {
         title = $('.artist_title_opener_single').text().trim(),
         date = $('.artist_date-single').first().text().trim();
 
+    if (date.match(/|/)) {
+        var datepts = date.split('|');
+        date = datepts[0].trim();
+    }
+
     var costStageDoors = $('.show-text').text().trim().split('/');
 
     var prices = parsePrices(costStageDoors);
     var times = [];
 
     $('#event-info-single .info_left>div').each(function(i, row) {
+        var time = $('.date_right', row).text().trim();
         times.push({
-            time: $('.date_right', row).text().trim(),
-            type: $('.date_left', row).text().trim()
+            time: time,
+            stamp: +moment(date + ' ' + time, 'ddd MMM D h:mma').toDate(),
+            label: $('.date_left', row).text().trim()
         });
     });
 
@@ -97,8 +104,10 @@ function parseShowBody(body) {
 
     var minage = null;
 
-    if ($('.artist_date-single').text().match(/21\+/)) {
+    if ($('.artist_date-single').text().match(/21\+/gi)) {
         minage = 21;
+    } else if ($('.artist_date-single').text().match(/all ages/gi)) {
+        minage = 0;
     }
 
     var youtube = [],

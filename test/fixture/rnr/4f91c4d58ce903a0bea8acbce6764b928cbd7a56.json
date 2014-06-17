@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "11:30 pm",
-      "type": "SHOW"
+      "stamp": 1406431800000,
+      "label": "SHOW"
     },
     {
       "time": "",
-      "type": "DOORS"
+      "stamp": 1406347200000,
+      "label": "DOORS"
     }
   ],
   "title": "Djs Rex Riot & Basscamp",
@@ -20,7 +22,7 @@
       "type": "Day of show"
     }
   ],
-  "date": "Sat Jul 26 |",
+  "date": "Sat Jul 26",
   "minage": null,
   "tickets": null,
   "youtube": [],

@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "9:30 pm",
-      "type": "SHOW"
+      "stamp": 1402104600000,
+      "label": "SHOW"
     },
     {
       "time": "8:00 pm",
-      "type": "DOORS"
+      "stamp": 1402099200000,
+      "label": "DOORS"
     }
   ],
   "title": "Feed The Meter",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Fri Jun 6 | all ages",
-  "minage": null,
+  "date": "Fri Jun 6",
+  "minage": 0,
   "tickets": null,
   "youtube": [],
   "soundcloud": [],

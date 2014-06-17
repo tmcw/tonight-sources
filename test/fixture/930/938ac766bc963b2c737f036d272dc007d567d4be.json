@@ -3,12 +3,7 @@
     "Doors: 8:00 pm"
   ],
   "title": "JunkFood",
-  "prices": [
-    {
-      "price": "",
-      "type": "unknown"
-    }
-  ],
+  "prices": "",
   "date": "Fri 6/20/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/591203",

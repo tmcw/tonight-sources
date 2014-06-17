@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "9:30 pm",
-      "type": "SHOW"
+      "stamp": 1406338200000,
+      "label": "SHOW"
     },
     {
       "time": "",
-      "type": "DOORS"
+      "stamp": 1406260800000,
+      "label": "DOORS"
     }
   ],
   "title": "still ill",
@@ -20,7 +22,7 @@
       "type": "any"
     }
   ],
-  "date": "Fri Jul 25 | 21+",
+  "date": "Fri Jul 25",
   "minage": 21,
   "tickets": null,
   "youtube": [],

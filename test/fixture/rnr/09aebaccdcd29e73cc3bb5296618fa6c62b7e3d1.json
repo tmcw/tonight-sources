@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1403481600000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1403478000000,
+      "label": "DOORS"
     }
   ],
   "title": "Jolie Holland",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Sun Jun 22 | all ages",
-  "minage": null,
+  "date": "Sun Jun 22",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/4AOJbhgct8w",

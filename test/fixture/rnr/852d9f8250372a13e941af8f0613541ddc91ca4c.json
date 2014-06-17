@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:30 pm",
-      "type": "SHOW"
+      "stamp": 1407025800000,
+      "label": "SHOW"
     },
     {
       "time": "6:00 pm",
-      "type": "DOORS"
+      "stamp": 1407016800000,
+      "label": "DOORS"
     }
   ],
   "title": "POP OFF",
@@ -20,7 +22,7 @@
       "type": "any"
     }
   ],
-  "date": "Sat Aug 2 | 21+",
+  "date": "Sat Aug 2",
   "minage": 21,
   "tickets": null,
   "youtube": [],

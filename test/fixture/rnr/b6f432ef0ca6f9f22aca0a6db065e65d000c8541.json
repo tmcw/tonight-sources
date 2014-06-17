@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:30 pm",
-      "type": "SHOW"
+      "stamp": 1415475000000,
+      "label": "SHOW"
     },
     {
       "time": "",
-      "type": "DOORS"
+      "stamp": 1415475000000,
+      "label": "DOORS"
     }
   ],
   "title": "POP OFF",
@@ -20,7 +22,7 @@
       "type": "Day of show"
     }
   ],
-  "date": "Sat Nov 8 - December 14, 2013 8:30 pm |",
+  "date": "Sat Nov 8 - December 14, 2013 8:30 pm",
   "minage": null,
   "tickets": null,
   "youtube": [],

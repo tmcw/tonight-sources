@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1403136000000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1403132400000,
+      "label": "DOORS"
     }
   ],
   "title": "The Jezabels",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Wed Jun 18 | all ages",
-  "minage": null,
+  "date": "Wed Jun 18",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/5vl9ZVqC7rw",

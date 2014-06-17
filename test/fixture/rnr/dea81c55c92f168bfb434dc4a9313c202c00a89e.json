@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1402358400000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1402354800000,
+      "label": "DOORS"
     }
   ],
   "title": "Cayucas",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Mon Jun 9 | all ages",
-  "minage": null,
+  "date": "Mon Jun 9",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/Io8PqddrRIs",

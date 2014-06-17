@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:30 pm",
-      "type": "SHOW"
+      "stamp": 1402965000000,
+      "label": "SHOW"
     },
     {
       "time": "7:30 pm",
-      "type": "DOORS"
+      "stamp": 1402961400000,
+      "label": "DOORS"
     }
   ],
   "title": "Asher Roth",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Mon Jun 16 | all ages",
-  "minage": null,
+  "date": "Mon Jun 16",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/D_w26Gzr5kU"

@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1402012800000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1402009200000,
+      "label": "DOORS"
     }
   ],
   "title": "DRAG @ Rock & Roll Hotel",
@@ -20,7 +22,7 @@
       "type": "Day of show"
     }
   ],
-  "date": "Thu Jun 5 | 21+",
+  "date": "Thu Jun 5",
   "minage": 21,
   "tickets": null,
   "youtube": [

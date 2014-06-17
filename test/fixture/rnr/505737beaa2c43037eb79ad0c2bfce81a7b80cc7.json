@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1403222400000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1403218800000,
+      "label": "DOORS"
     }
   ],
   "title": "The Felice Brothers",
@@ -20,7 +22,7 @@
       "type": "Day of show"
     }
   ],
-  "date": "Thu Jun 19 |",
+  "date": "Thu Jun 19",
   "minage": null,
   "tickets": null,
   "youtube": [

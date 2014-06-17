@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1406419200000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1406415600000,
+      "label": "DOORS"
     }
   ],
   "title": "REIGNWOLF",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Sat Jul 26 | all ages",
-  "minage": null,
+  "date": "Sat Jul 26",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/-Rn5_7EZsIQ",

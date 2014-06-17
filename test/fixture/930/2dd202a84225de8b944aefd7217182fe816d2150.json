@@ -3,12 +3,7 @@
     "Doors: 7:00 pm"
   ],
   "title": "Kelis",
-  "prices": [
-    {
-      "price": "",
-      "type": "unknown"
-    }
-  ],
+  "prices": "",
   "date": "Sun 6/15/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/553061",

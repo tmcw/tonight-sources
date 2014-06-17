@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "7:30 pm",
-      "type": "SHOW"
+      "stamp": 1405985400000,
+      "label": "SHOW"
     },
     {
       "time": "6:30 pm",
-      "type": "DOORS"
+      "stamp": 1405981800000,
+      "label": "DOORS"
     }
   ],
   "title": "CEREMONY",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Mon Jul 21 | all ages",
-  "minage": null,
+  "date": "Mon Jul 21",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/qkthUwiKEGQ",

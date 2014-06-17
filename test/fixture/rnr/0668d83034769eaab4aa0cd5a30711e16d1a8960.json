@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1406246400000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1406242800000,
+      "label": "DOORS"
     }
   ],
   "title": "Hospitality & EX HEX",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Thu Jul 24 | all ages",
-  "minage": null,
+  "date": "Thu Jul 24",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/PIA5e4esp1g",

@@ -3,12 +3,7 @@
     "Doors: 7:00 pm"
   ],
   "title": "Kaiser Chiefs",
-  "prices": [
-    {
-      "price": "",
-      "type": "unknown"
-    }
-  ],
+  "prices": "",
   "date": "Wed 6/18/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/504579",

@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1402185600000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1402182000000,
+      "label": "DOORS"
     }
   ],
   "title": "Brooklyn Brewery & Mash presents The Men",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Sat Jun 7 | all ages",
-  "minage": null,
+  "date": "Sat Jun 7",
+  "minage": 0,
   "tickets": null,
   "youtube": [],
   "soundcloud": [],

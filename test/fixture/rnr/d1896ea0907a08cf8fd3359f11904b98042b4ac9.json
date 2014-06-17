@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1402272000000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1402268400000,
+      "label": "DOORS"
     }
   ],
   "title": "Jonathan Wilson (and his band)",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Sun Jun 8 | all ages",
-  "minage": null,
+  "date": "Sun Jun 8",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/F3dYeqa6Xt0",

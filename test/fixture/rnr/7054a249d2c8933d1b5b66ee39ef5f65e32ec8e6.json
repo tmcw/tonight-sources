@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:30 pm",
-      "type": "SHOW"
+      "stamp": 1403915400000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1403910000000,
+      "label": "DOORS"
     }
   ],
   "title": "Black Taxi",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Fri Jun 27 | all ages",
-  "minage": null,
+  "date": "Fri Jun 27",
+  "minage": 0,
   "tickets": null,
   "youtube": [
     "http://www.youtube.com/embed/4EKO55kpSIM"

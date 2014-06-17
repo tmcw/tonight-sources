@@ -2,11 +2,13 @@
   "times": [
     {
       "time": "8:00 pm",
-      "type": "SHOW"
+      "stamp": 1412294400000,
+      "label": "SHOW"
     },
     {
       "time": "7:00 pm",
-      "type": "DOORS"
+      "stamp": 1412290800000,
+      "label": "DOORS"
     }
   ],
   "title": "FREEMAN",
@@ -20,8 +22,8 @@
       "type": "Day of show"
     }
   ],
-  "date": "Thu Oct 2 | all ages",
-  "minage": null,
+  "date": "Thu Oct 2",
+  "minage": 0,
   "tickets": null,
   "youtube": [],
   "soundcloud": [
