@@ -1,13 +1,19 @@
 {
   "times": [
-    "Doors: 7:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1402959600000
+    }
   ],
   "title": "The Knocks & ASTR",
-  "prices": "",
+  "prices": [],
   "date": "Mon 6/16/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/560299",
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    "HOLYCHILD"
+  ],
   "venue_id": "930"
 }

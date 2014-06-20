@@ -31,5 +31,8 @@
   "soundcloud": [
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F63340906&auto_play=false&hide_related=false&visual=true"
   ],
+  "supporters": [
+    ""
+  ],
   "venue_id": "rnr"
 }

@@ -1,13 +1,19 @@
 {
   "times": [
-    "Doors: 6:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1402783200000
+    }
   ],
   "title": "tUnE-yArDs",
-  "prices": "",
+  "prices": [],
   "date": "Sat 6/14/14",
   "minage": null,
   "tickets": null,
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    "Sylvan Esso"
+  ],
   "venue_id": "930"
 }

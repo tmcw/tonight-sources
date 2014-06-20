@@ -1,13 +1,19 @@
 {
   "times": [
-    "Doors: 7:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1403218800000
+    }
   ],
   "title": "A-Trak",
-  "prices": "",
+  "prices": [],
   "date": "Thu 6/19/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/499657",
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    "Salva, Alex Young"
+  ],
   "venue_id": "930"
 }

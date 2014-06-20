@@ -18,5 +18,9 @@
   "tickets": "http://www.ticketfly.com/purchase/event/592379?utm_medium=bks",
   "youtube": [],
   "soundcloud": [],
-  "venue_id": "blackcat"
+  "venue_id": "blackcat",
+  "supporters": [
+    "Black Cat Summer Comedy Series with:",
+    "NATE FERNALD"
+  ]
 }

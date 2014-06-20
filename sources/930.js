@@ -71,8 +71,16 @@ function parseShowBody(body) {
         date = $('h2.dates').first().text();
 
     $('h2.times span').each(function(i, elem) {
-        times.push($(elem).text().trim());
+        var txt = $(elem).text().trim();
+        if (txt.match(/Doors/)) {
+            times.push({
+                label: 'doors',
+                stamp: +moment(date + ' ' + txt.replace(/Doors\:/, ''),'ddd MM/DD/YY  h:mm a').toDate()
+            });
+        }
     });
+
+    var supports = $('h2.supports').first().text().trim();
 
     var prices = $('.showinfo h3').text().trim();
 
@@ -111,6 +119,7 @@ function parseShowBody(body) {
         tickets: tickets,
         youtube: youtube,
         soundcloud: soundcloud,
+        supporters: [supports],
         venue_id: VENUEID
     };
 }
@@ -124,5 +133,5 @@ function parseShow(show) {
 }
 
 function parsePrices(prices) {
-    return prices;
+    return [];
 }

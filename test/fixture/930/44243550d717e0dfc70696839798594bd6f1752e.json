@@ -1,62 +1,207 @@
 {
   "times": [
-    "Doors: 7:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 6:00 pm",
-    "Doors: 10:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 9:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 8:00 pm",
-    "7:00 pm",
-    "",
-    "Doors: 8:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:30 pm",
-    "Doors: 11:30 pm",
-    "Doors: 8:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 9:00 pm",
-    "Doors: 9:00 pm",
-    "Doors: 6:00 pm",
-    "Doors: 11:00 pm",
-    "Doors: 6:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 9:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 8:00 pm",
-    "Doors: 6:00 pm",
-    "Doors: 10:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 7:00 pm",
-    "Doors: 4:30 pm",
-    "Doors: 7:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1150128000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1276358400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1244822400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1307894400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1244822400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1244822400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1150128000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1307894400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1150128000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1244822400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1213286400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1150128000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1276358400000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1087056000000
+    },
+    {
+      "label": "doors",
+      "stamp": 1181664000000
+    }
   ],
   "title": "First Aid KittUnE-yArDstUnE-yArDsWho's Bad: The Ultimate Michael Jackson tribute BandKelisThe Knocks & ASTRSharon Van EttenKaiser ChiefsA-TrakJunkFoodThe NineXavier RuddLake Street DiveThrowing Muses with Special Guest Tanya DonellyNo Scrubs: 90's Dance Party with DJs Will Eastman and Brian BillionPigeons Playing Ping Pong (CD Release Party) with CabinetWhite Ford BroncoNEON TREES @ Rams Head Live • Baltimore, MDThe Morrison Brothers BandWild BeastsNeon TreesPuss N Boots feat. Norah Jones, Sasha Dobson, Catherine PopperCamera ObscuraA Blue and White Pajama Jammy JamMac DeMarcoBebel GilbertoUs the DuoFlumeFlumeThe AntlersMixtapeThe US Air Guitar Championships Mid-Atlantic SemifinalsThe KooksThe Disco BiscuitsThe Disco BiscuitsBorisPresidents of the United States of AmericaAgnes ObelFeed Me's Psychedelic Journey With TeethRuPaul's Drag Race: Battle of the SeasonsGeorge Clinton & Parliament FunkadelicM.H. & His Orchestra, The Walking Sticks and Black MasalaBob MouldStromaeTwenty One PilotsTwenty One PilotsThe Airborne Toxic EventYOU ME AT SIX (NEW DATE)Broad City Live - NEW DATE",
-  "prices": "",
+  "prices": [],
   "date": "Thu 6/12",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/508469",
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    "Willy Mason"
+  ],
   "venue_id": "930"
 }

@@ -18,5 +18,8 @@
   "tickets": null,
   "youtube": [],
   "soundcloud": [],
-  "venue_id": "blackcat"
+  "venue_id": "blackcat",
+  "supporters": [
+    "BISHOPS"
+  ]
 }

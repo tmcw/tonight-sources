@@ -18,5 +18,10 @@
   "tickets": "http://www.ticketfly.com/purchase/event/575999?utm_medium=bks",
   "youtube": [],
   "soundcloud": [],
-  "venue_id": "blackcat"
+  "venue_id": "blackcat",
+  "supporters": [
+    "FYM Productions presents:",
+    "THE CURE VS. THE SMITHS DANCE PARTY: SUMMER EDITION",
+    "The largest Cure/Smiths Dance Party in the US! "
+  ]
 }

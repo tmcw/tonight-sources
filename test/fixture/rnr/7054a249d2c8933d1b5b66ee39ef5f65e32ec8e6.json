@@ -31,5 +31,10 @@
   "soundcloud": [
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F1820542&auto_play=false&hide_related=false&visual=true"
   ],
+  "supporters": [
+    "Soft White Sixites",
+    "Buffalo 40",
+    "We Are Stone Mason"
+  ],
   "venue_id": "rnr"
 }

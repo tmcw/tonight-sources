@@ -33,5 +33,8 @@
   "soundcloud": [
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F48429145&auto_play=false&hide_related=false&visual=true"
   ],
+  "supporters": [
+    "WEED"
+  ],
   "venue_id": "rnr"
 }

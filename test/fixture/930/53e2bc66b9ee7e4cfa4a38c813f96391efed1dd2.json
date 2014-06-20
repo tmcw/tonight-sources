@@ -1,13 +1,19 @@
 {
   "times": [
-    "Doors: 7:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1403046000000
+    }
   ],
   "title": "Sharon Van Etten",
-  "prices": "",
+  "prices": [],
   "date": "Tue 6/17/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/508683",
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    "Jana Hunter"
+  ],
   "venue_id": "930"
 }

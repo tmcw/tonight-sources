@@ -1,13 +1,19 @@
 {
   "times": [
-    "Doors: 10:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1402797600000
+    }
   ],
   "title": "Who's Bad: The Ultimate Michael Jackson tribute Band",
-  "prices": "",
+  "prices": [],
   "date": "Sat 6/14/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/546865",
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    ""
+  ],
   "venue_id": "930"
 }

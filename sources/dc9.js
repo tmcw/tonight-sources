@@ -77,6 +77,11 @@ function parseShowBody(body) {
 
     var prices = $('.showinfo h3').text().trim();
 
+    var support = [];
+    // $('#content .post > h3').each(function(i, elem) {
+    //     support.push($(elem).text());
+    // });
+
     var minage = null;
 
     if ($('.showinfo').text().match(/all ages/)) {
@@ -121,6 +126,7 @@ function parseShowBody(body) {
         tickets: tickets,
         youtube: youtube,
         soundcloud: soundcloud,
+        supporters: support,
         venue_id: VENUEID
     };
 }

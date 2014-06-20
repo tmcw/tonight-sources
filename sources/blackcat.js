@@ -64,8 +64,15 @@ module.exports.parseShowBody = parseShowBody;
 
 function parseShowBody(body) {
     var $ = cheerio.load(body),
-        title = $('.show-details h1').text().trim(),
+        title = $('.show-details h1.headline').text().trim(),
+        support = $('.show-details h2.support'),
         date = $('.show-details h2.date').first().text();
+
+    var supporters = [];
+
+    support.each(function(i, elem) {
+        supporters.push($(elem).text());
+    });
 
     var costStageDoors = $('.show-text').text().trim().split('/');
 
@@ -114,7 +121,8 @@ function parseShowBody(body) {
         tickets: tickets,
         youtube: youtube,
         soundcloud: soundcloud,
-        venue_id: VENUEID
+        venue_id: VENUEID,
+        supporters: supporters
     };
 }
 
@@ -126,7 +134,8 @@ function parsePrices(segs) {
     segs.forEach(function(str) {
         if (str.match(/free/)) {
             prices.push({
-                doors: 'free'
+                type: 'doors',
+                price: 0
             });
         }
         var match = str.match(/\$([\d\.]+)\s(\w+)/);

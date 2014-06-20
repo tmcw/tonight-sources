@@ -13,7 +13,8 @@
       "price": 15
     },
     {
-      "doors": "free"
+      "type": "doors",
+      "price": 0
     }
   ],
   "date": "Saturday July 12",
@@ -21,5 +22,8 @@
   "tickets": "http://www.ticketfly.com/purchase/event/594419?utm_medium=bks",
   "youtube": [],
   "soundcloud": [],
-  "venue_id": "blackcat"
+  "venue_id": "blackcat",
+  "supporters": [
+    "Session 1"
+  ]
 }

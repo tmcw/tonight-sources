@@ -30,5 +30,9 @@
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F287849&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true",
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F1610850&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"
   ],
+  "supporters": [
+    "Rex Riot",
+    "Basscamp"
+  ],
   "venue_id": "rnr"
 }

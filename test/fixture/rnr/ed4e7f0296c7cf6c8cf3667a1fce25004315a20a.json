@@ -31,5 +31,9 @@
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F11248474&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true",
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F41452378&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"
   ],
+  "supporters": [
+    "Modern Pantheist",
+    "Cawl Sted"
+  ],
   "venue_id": "rnr"
 }

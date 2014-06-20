@@ -1,13 +1,19 @@
 {
   "times": [
-    "Doors: 7:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1402614000000
+    }
   ],
   "title": "First Aid Kit",
-  "prices": "",
+  "prices": [],
   "date": "Thu 6/12/14",
   "minage": null,
   "tickets": null,
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    "Willy Mason"
+  ],
   "venue_id": "930"
 }

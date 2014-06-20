@@ -1,13 +1,19 @@
 {
   "times": [
-    "Doors: 7:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1403132400000
+    }
   ],
   "title": "Kaiser Chiefs",
-  "prices": "",
+  "prices": [],
   "date": "Wed 6/18/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/504579",
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    "Streets of Laredo"
+  ],
   "venue_id": "930"
 }

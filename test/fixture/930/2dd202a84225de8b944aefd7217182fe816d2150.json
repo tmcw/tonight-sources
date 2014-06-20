@@ -1,13 +1,19 @@
 {
   "times": [
-    "Doors: 7:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1402873200000
+    }
   ],
   "title": "Kelis",
-  "prices": "",
+  "prices": [],
   "date": "Sun 6/15/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/553061",
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    "Son Little"
+  ],
   "venue_id": "930"
 }

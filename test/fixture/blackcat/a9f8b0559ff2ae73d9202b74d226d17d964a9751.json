@@ -18,5 +18,9 @@
   "tickets": "http://www.ticketfly.com/purchase/event/582533?utm_medium=bks",
   "youtube": [],
   "soundcloud": [],
-  "venue_id": "blackcat"
+  "venue_id": "blackcat",
+  "supporters": [
+    "The Battle of the Law Firm Bands",
+    "A Benefit for Gifts For the Homeless"
+  ]
 }

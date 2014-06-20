@@ -33,5 +33,8 @@
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F3173995&auto_play=false&hide_related=false&visual=true",
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F1709768&auto_play=false&hide_related=false&visual=true"
   ],
+  "supporters": [
+    "Joywave"
+  ],
   "venue_id": "rnr"
 }

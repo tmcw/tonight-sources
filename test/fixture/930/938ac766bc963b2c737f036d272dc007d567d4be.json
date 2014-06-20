@@ -1,13 +1,19 @@
 {
   "times": [
-    "Doors: 8:00 pm"
+    {
+      "label": "doors",
+      "stamp": 1403308800000
+    }
   ],
   "title": "JunkFood",
-  "prices": "",
+  "prices": [],
   "date": "Fri 6/20/14",
   "minage": null,
   "tickets": "http://www.ticketfly.com/purchase/event/591203",
   "youtube": [],
   "soundcloud": [],
+  "supporters": [
+    "Levi Stephens, Fight The Lion, The Mailmen"
+  ],
   "venue_id": "930"
 }

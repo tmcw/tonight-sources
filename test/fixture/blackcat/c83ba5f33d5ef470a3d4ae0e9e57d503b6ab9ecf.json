@@ -292,14 +292,16 @@
       "price": 8
     },
     {
-      "doors": "free"
+      "type": "doors",
+      "price": 0
     },
     {
       "type": "Both",
       "price": 10
     },
     {
-      "doors": "free"
+      "type": "doors",
+      "price": 0
     },
     {
       "type": "Backstage",
@@ -318,7 +320,8 @@
       "price": 12
     },
     {
-      "doors": "free"
+      "type": "doors",
+      "price": 0
     },
     {
       "type": "advance",
@@ -333,7 +336,8 @@
       "price": 10
     },
     {
-      "doors": "free"
+      "type": "doors",
+      "price": 0
     },
     {
       "type": "Backstage",
@@ -364,7 +368,8 @@
       "price": 12
     },
     {
-      "doors": "free"
+      "type": "doors",
+      "price": 0
     },
     {
       "type": "advance",
@@ -383,7 +388,8 @@
       "price": 5
     },
     {
-      "doors": "free"
+      "type": "doors",
+      "price": 0
     },
     {
       "type": "Backstage",
@@ -490,7 +496,8 @@
       "price": 12
     },
     {
-      "doors": "free"
+      "type": "doors",
+      "price": 0
     },
     {
       "type": "Mainstage",
@@ -534,5 +541,97 @@
   "tickets": "http://www.ticketfly.com/purchase/event/556807?utm_medium=bks",
   "youtube": [],
   "soundcloud": [],
-  "venue_id": "blackcat"
+  "venue_id": "blackcat",
+  "supporters": [
+    "MEMORY MAP",
+    "BRNDA",
+    "NATTY BOOM (Anthology of Booty)",
+    "DJ rAt (Anthology of Booty)",
+    "MOTHERSHEISTER (Anthology of Booty)",
+    "DJ INDANILE (Anthology of Booty)",
+    "ALEX DB (She Rex)",
+    "JUNEBULLET (She Rex)",
+    "COACH VEE (She Rex)",
+    "DJ C.RUSH (She Rex)",
+    "DJ JOSHUA (Gay/Bash!)",
+    "DR.WHO HAPPY HOUR",
+    "One episode of Dr. Who & drink specials every Friday!",
+    "A Pride Dance Party with DJs:",
+    "DEAN SULLIVAN (Gay/Bash, DILF, BearZerk)",
+    "TOMMY CORNELIS (Needle Exchange,BearZerk)",
+    "KEENAN ORR (Cobalt, Marvin. ESL)",
+    "NATTY BOOM (Anthology of Booty)",
+    "RICH MOREL",
+    "BIL TODD",
+    "CYLON HAPPY HOUR",
+    "One episode of Battlestar Galactica & drink specials every Saturday!",
+    "Red Room open at 8:00pm.",
+    "$5 craft beer and whiskey specials.",
+    "A fundraiser for:",
+    "Followed by a Q&A with filmmakers Paul Bishow and James Schneider",
+    "Red Room open at 8:00pm.",
+    "$5 craft beer and whiskey specials.",
+    "G.U.T.S.",
+    "Black Cat Summer Comedy Series with:",
+    "MATTY LITVACK",
+    "DR.WHO HAPPY HOUR",
+    "One episode of Dr. Who & drink specials every Friday!",
+    "FYM Productions presents:",
+    "THE CURE VS. THE SMITHS DANCE PARTY: SUMMER EDITION",
+    "w/ DJs Steve EP, DJ Missguided, Killa K, and Krasty McNasty",
+    "CYLON HAPPY HOUR",
+    "One episode of Battlestar Galactica & drink specials every Saturday!",
+    "High Energy Dance Night of Hip Hop, House, 90s Pop, and Not-So Guilty Pleasures",
+    "DEAR CREEK",
+    "SAINT PEPSI",
+    "GRINGO STAR",
+    "THE GRISWOLDS",
+    "SPEAK",
+    "Black Cat Summer Comedy Series with:",
+    "NATE FERNALD",
+    "DR.WHO HAPPY HOUR",
+    "One episode of Dr. Who & drink specials every Friday!",
+    "A Burlesque Tribute to Joss Whedon",
+    "2000s Alt-Pop Dance Night w/ DJ lil'e",
+    "60s Girl Groups, Soul, Garage, and more w/ DJ Mad Squirrel and Rob J.",
+    "CYLON HAPPY HOUR",
+    "One episode of Battlestar Galactica & drink specials every Saturday!",
+    "BISHOPS",
+    "THE MODERN ELECTRIC",
+    "The Battle of the Law Firm Bands",
+    "A Benefit for Gifts For the Homeless",
+    "GLITTERLUST",
+    "SISTER EX",
+    "FREEFORM RADIO",
+    "MORE AM THAN FM",
+    "FRANKIE & BETTY",
+    "A Queer Night of Rock & Pop Gems w/ DJs Joshua and Dean",
+    "Hosted by our ghouls: HEIDI GLÜM & RUMOR MILLZ",
+    "Featuring special guest: CHER NOBLE",
+    "Film Screening:",
+    " A Benefit for Lime Lite Boxing and Fitness",
+    "PAPERHAUS",
+    "HUMBLE FIRE",
+    "SUN CLUB",
+    "Session 1",
+    "HOP ALONG",
+    "GLOCCA MORRA",
+    "Bleeding Hands Remixes: Cassette Release Party",
+    "VOID VISION",
+    "CURSE",
+    "LODRO",
+    "REGAL DEGAL",
+    "ED SCHRADER'S MUSIC BEAT",
+    "Sponsored by AVPreserve",
+    "Black Cat Summer Comedy Series with:",
+    "THE PACK A.D.",
+    "WRAY",
+    "10/1: THE RAVEONETTES",
+    "10/2: BLACK LIPS",
+    "10/14: THE ORWELLS",
+    "10/19: il sogno del marinaio with MIKE WATT",
+    "11/6: THE HORRORS",
+    "11/15: CARIBOU",
+    "11/17: NEIL HAMBURGER"
+  ]
 }

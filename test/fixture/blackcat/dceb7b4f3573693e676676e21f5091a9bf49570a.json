@@ -9,7 +9,8 @@
   "title": "AV ARCHIVES NIGHT",
   "prices": [
     {
-      "doors": "free"
+      "type": "doors",
+      "price": 0
     }
   ],
   "date": "Wednesday Aug 13",
@@ -17,5 +18,8 @@
   "tickets": null,
   "youtube": [],
   "soundcloud": [],
-  "venue_id": "blackcat"
+  "venue_id": "blackcat",
+  "supporters": [
+    "Sponsored by AVPreserve"
+  ]
 }

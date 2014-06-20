@@ -18,5 +18,9 @@
   "tickets": "http://www.ticketfly.com/purchase/event/574521?utm_medium=bks",
   "youtube": [],
   "soundcloud": [],
-  "venue_id": "blackcat"
+  "venue_id": "blackcat",
+  "supporters": [
+    "A fundraiser for:",
+    "Followed by a Q&A with filmmakers Paul Bishow and James Schneider"
+  ]
 }

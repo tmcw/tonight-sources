@@ -32,5 +32,8 @@
   "soundcloud": [
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F73641991&auto_play=false&hide_related=false&visual=true"
   ],
+  "supporters": [
+    "Big Country Express"
+  ],
   "venue_id": "rnr"
 }

@@ -30,5 +30,9 @@
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F5267069&auto_play=false&hide_related=false&visual=true",
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F11847157&auto_play=false&hide_related=false&visual=true"
   ],
+  "supporters": [
+    "Tiny Victories",
+    "Pleasure Curses"
+  ],
   "venue_id": "rnr"
 }

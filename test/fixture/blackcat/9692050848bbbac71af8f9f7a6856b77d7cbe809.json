@@ -18,5 +18,12 @@
   "tickets": "http://www.ticketfly.com/purchase/event/587011?utm_medium=bks",
   "youtube": [],
   "soundcloud": [],
-  "venue_id": "blackcat"
+  "venue_id": "blackcat",
+  "supporters": [
+    "GLITTERLUST",
+    "SISTER EX",
+    "FREEFORM RADIO",
+    "MORE AM THAN FM",
+    "FRANKIE & BETTY"
+  ]
 }

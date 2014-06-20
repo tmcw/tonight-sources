@@ -64,6 +64,13 @@ function parseShowBody(body) {
         title = $('.artist_title_opener_single').text().trim(),
         date = $('.artist_date-single').first().text().trim();
 
+    var support = [];
+    $('#event-info-single div.openers').each(function(i, elem) {
+        $(elem).text().split('|').forEach(function(opener) {
+            support.push(opener.trim());
+        });
+    });
+
     if (date.match(/|/)) {
         var datepts = date.split('|');
         date = datepts[0].trim();
@@ -137,6 +144,7 @@ function parseShowBody(body) {
         tickets: tickets,
         youtube: youtube,
         soundcloud: soundcloud,
+        supporters: support,
         venue_id: VENUEID
     };
 }

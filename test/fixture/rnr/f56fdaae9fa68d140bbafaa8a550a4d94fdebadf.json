@@ -31,5 +31,9 @@
   "soundcloud": [
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F107700258&auto_play=false&hide_related=false&visual=true"
   ],
+  "supporters": [
+    "SonReal",
+    "Fearce Vill"
+  ],
   "venue_id": "rnr"
 }

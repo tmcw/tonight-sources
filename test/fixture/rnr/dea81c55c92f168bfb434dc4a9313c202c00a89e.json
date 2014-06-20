@@ -33,5 +33,9 @@
   "soundcloud": [
     "http://w.soundcloud.com/player?url=https%3A%2F%2Fapi.soundcloud.com%2Fusers%2F16520943&auto_play=false&hide_related=false&visual=true"
   ],
+  "supporters": [
+    "PAPA",
+    "Sun Club"
+  ],
   "venue_id": "rnr"
 }
