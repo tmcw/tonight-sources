@@ -90,6 +90,24 @@
           38.9166845
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "9:30 Club",
+        "shortname": "930",
+        "id": "930",
+        "address": "815 V ST. N.W. WASHINGTON DC",
+        "phone": "202.265.0930",
+        "color": "rgb(34, 49, 63)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0241319,
+          38.9166845
+        ]
+      }
     }
   ]
 }

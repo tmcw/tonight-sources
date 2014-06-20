@@ -1,5 +1,8 @@
+var VENUEID = 'velvetlounge';
+
 var queue = require('queue-async'),
     moment = require('moment'),
+    debug = require('debug')(VENUEID),
     assert = require('assert'),
     cheerio = require('cheerio');
 
@@ -11,8 +14,7 @@ if (process.env.SAVE) request = require('../lib/request-save');
 else if (process.env.MOCK) request = require('../lib/request-cached');
 else request = require('request');
 
-var ENDPOINT = 'http://velvetloungedc.com/events/',
-    VENUEID = 'velvetlounge';
+var ENDPOINT = 'http://velvetloungedc.com/events/';
 
 module.exports.load = function(callback) {
     request(ENDPOINT, function(err, response, body) {

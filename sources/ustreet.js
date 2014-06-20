@@ -1,8 +1,10 @@
+var VENUEID = 'ustreet';
+
 var queue = require('queue-async'),
     moment = require('moment'),
+    debug = require('debug')(VENUEID),
     cheerio = require('cheerio');
 
-var LIMIT = 3;
 
 /**
  * CACHE: save results to disk
@@ -13,7 +15,6 @@ else if (process.env.MOCK) request = require('../lib/request-cached');
 else request = require('request');
 
 var ENDPOINT = 'http://www.ustreetmusichall.com/calendar/';
-var VENUEID = 'ustreet';
 
 // request(ENDPOINT, onload);
 module.exports.load = function(callback) {
@@ -23,9 +24,9 @@ module.exports.load = function(callback) {
     });
 }
 
-module.exports.load(function(err, res) {
-    console.error(JSON.stringify(res, null, 2));
-});
+// module.exports.load(function(err, res) {
+//     console.error(JSON.stringify(res, null, 2));
+// });
 
 function processBody(body, callback) {
 
@@ -36,12 +37,11 @@ function processBody(body, callback) {
         links.push('http://www.ustreetmusichall.com' + $(elem).attr('href'));
     });
 
-    if (LIMIT) links = links.slice(0, LIMIT);
+    if (process.env.LIMIT) links = links.slice(0, process.env.LIMIT);
 
-    var q = queue(1);
+    var q = queue(process.env.SOURCE_CONCURRENCY || 1);
 
     links.forEach(function(link) {
-        console.error('getting ', link);
         q.defer(getShow, link);
     });
 
@@ -53,6 +53,7 @@ function processBody(body, callback) {
 }
 
 function getShow(link, callback) {
+    debug('getting ', link);
     request(link, showload);
 
     function showload(err, response, body) {

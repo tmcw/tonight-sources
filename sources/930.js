@@ -1,8 +1,9 @@
+var VENUEID = '930';
+
 var queue = require('queue-async'),
     moment = require('moment'),
+    debug = require('debug')(VENUEID),
     cheerio = require('cheerio');
-
-var LIMIT = 10;
 
 /**
  * CACHE: save results to disk
@@ -13,7 +14,6 @@ else if (process.env.MOCK) request = require('../lib/request-cached');
 else request = require('request');
 
 var ENDPOINT = 'http://www.930.com/concerts/';
-var VENUEID = '930';
 
 module.exports.load = function(callback) {
     request(ENDPOINT, function(err, response, body) {
@@ -35,12 +35,11 @@ function processBody(body, callback) {
         links.push('http://www.930.com' + $('a', elem).attr('href'));
     });
 
-    if (LIMIT) links = links.slice(0, LIMIT);
+    if (process.env.LIMIT) links = links.slice(0, process.env.LIMIT);
 
-    var q = queue(1);
+    var q = queue(process.env.SOURCE_CONCURRENCY || 1);
 
     links.forEach(function(link) {
-        console.error('getting ', link);
         q.defer(getShow, link);
     });
 
@@ -53,6 +52,7 @@ function processBody(body, callback) {
 
 function getShow(link, callback) {
     request(link, showload);
+    debug('getting ' + link);
 
     function showload(err, response, body) {
         callback(null, {
