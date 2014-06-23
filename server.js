@@ -5,4 +5,4 @@ var server = http.createServer(function(req, res) {
     res.end('tonight-source worker.');
 });
 
-server.listen(process.ENV.PORT || 3000);
+server.listen(process.env.PORT || 3000);
