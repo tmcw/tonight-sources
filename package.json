@@ -20,7 +20,9 @@
     "moment": "~2.6.0",
     "glob": "~4.0.2",
     "aws-sdk": "~2.0.0-rc.20",
-    "debug": "~1.0.2"
+    "debug": "~1.0.2",
+    "later": "~1.1.6",
+    "minimist": "~0.2.0"
   },
   "devDependencies": {
     "tap": "~0.4.9",

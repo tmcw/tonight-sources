@@ -1,0 +1,89 @@
+#!/usr/bin/env node
+
+var queue = require('queue-async'),
+    AWS = require('aws-sdk'),
+    moment = require('moment'),
+    fs = require('fs'),
+    argv = require('minimist')(process.argv.slice(2)),
+    debug = require('debug')('tonight-s3'),
+    flatten = require('lodash.flatten');
+
+if (argv.now) {
+    pull();
+} else {
+    // fires at 10:15am every day
+    var cron = '15 10 * * ? *',
+        s = later.parse.cron(cron);
+    later.setInterval(pull, s);
+}
+
+AWS.config.update({
+    accessKeyId: process.env.TMCW_AWS_ACCESS_KEY,
+    secretAccessKey: process.env.TMCW_AWS_SECRET_KEY // ,
+    // region: 'us-west-2'
+});
+
+
+var bucketConfig = {
+    params: {
+        Bucket: 'dctn'
+    }
+};
+
+var sources = [
+    require('../sources/dc9'),
+    require('../sources/blackcat'),
+    require('../sources/rockandroll'),
+    require('../sources/velvetlounge'),
+    require('../sources/930'),
+    require('../sources/ustreet')
+];
+
+function pull() {
+    var q = queue(2);
+
+    debug('loading sources');
+    sources.forEach(function(source) {
+        q.defer(source.load);
+    });
+
+    q.awaitAll(function(err, res) {
+        if (err) throw err;
+        var all_results = flatten(res);
+        debug(all_results.length + ' results');
+        var just_today = all_results.filter(inTimeRange);
+        debug(just_today.length + ' shows today');
+        saveToday(just_today);
+    });
+}
+
+function saveToday(data) { // fight the break of dawn
+
+    var s3bucket = new AWS.S3(bucketConfig),
+        key = todayStamp(),
+        body = JSON.stringify(data);
+
+    s3bucket.putObject({
+        Key: key,
+        Body: body
+    }, function(err, data) {
+        if (err) {
+            debug("Error uploading data: ", err);
+        } else {
+            debug("Successfully uploaded data to " + key);
+        }
+    });
+}
+
+function todayStamp() {
+    return moment().format('YYYY-MM-DD') + '.json';
+}
+
+function inTimeRange(show) {
+    if (show.times && show.times.length) {
+        var date = show.times[0].stamp;
+        var today_start = moment().startOf('day');
+        var today_end = moment().endOf('day');
+        return (date >= +today_start.toDate() && date <= +today_end.toDate());
+    }
+}
