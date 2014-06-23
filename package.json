@@ -22,14 +22,15 @@
     "aws-sdk": "~2.0.0-rc.20",
     "debug": "~1.0.2",
     "later": "~1.1.6",
-    "minimist": "~0.2.0"
+    "minimist": "~0.2.0",
+    "lodash.flatten": "~2.4.1"
   },
   "devDependencies": {
     "tap": "~0.4.9",
     "lodash.flatten": "~2.4.1"
   },
   "engines": {
-      "node": "0.10.29",
-      "npm": "1.3.x"
+    "node": "0.10.29",
+    "npm": "1.3.x"
   }
 }
