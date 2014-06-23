@@ -12,7 +12,7 @@ if (argv.now) {
     pull();
 } else {
     // fires at 10:15am every day
-    var cron = '15 10 * * ? *',
+    var cron = '30 * * * ? *',
         s = later.parse.cron(cron);
     later.setInterval(pull, s);
 }
