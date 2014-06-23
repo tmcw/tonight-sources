@@ -1,6 +1,8 @@
 ## server
 
-Needs a dokku image on DigitalOcean
+Needs a dokku image on DigitalOcean.
+
+https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-dokku-application
 
 ## setup
 
