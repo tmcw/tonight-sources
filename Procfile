@@ -1,1 +1,1 @@
-clock: node bin/tonight-s3
+clock: nodejs bin/tonight-s3
