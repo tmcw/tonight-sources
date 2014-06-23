@@ -1,1 +1,1 @@
-web: nodejs bin/tonight-s3
+web: node server.js
