@@ -52,6 +52,8 @@ function pull() {
     });
 
     q.awaitAll(function(err, res) {
+        debug('done');
+        if (err) debug('with error: ' + err.toString());
         if (err) throw err;
         var all_results = flatten(res);
         debug(all_results.length + ' results');
@@ -69,7 +71,9 @@ function saveToday(data) { // fight the break of dawn
 
     s3bucket.putObject({
         Key: key,
-        Body: body
+        Body: body,
+        ACL: 'public-read',
+        ContentType: 'application/json'
     }, function(err, data) {
         if (err) {
             debug("Error uploading data: ", err);
