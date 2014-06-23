@@ -32,7 +32,7 @@ function processBody(body, callback) {
         links.push($('a', elem).attr('href'));
     });
 
-    if (process.env.LIMIT) links = links.slice(0, process.env.LIMIT);
+    if (process.env.LIMIT || 10) links = links.slice(0, process.env.LIMIT);
 
     var q = queue(process.env.SOURCE_CONCURRENCY || 1);
 
