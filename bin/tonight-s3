@@ -8,11 +8,13 @@ var queue = require('queue-async'),
     debug = require('debug')('tonight-s3'),
     flatten = require('lodash.flatten');
 
+debug('tonight-s3 startup');
+
 if (argv.now) {
     pull();
 } else {
     // fires at 10:15am every day
-    var cron = '30 * * * ? *',
+    var cron = '*/2 * * * ? *',
         s = later.parse.cron(cron);
     later.setInterval(pull, s);
 }
