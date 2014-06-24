@@ -5,6 +5,8 @@ var queue = require('queue-async'),
     debug = require('debug')(VENUEID),
     cheerio = require('cheerio');
 
+var mylimit = process.env.LIMIT || 5;
+
 /**
  * CACHE: save results to disk
  * MOCK: use results on disk
@@ -16,6 +18,7 @@ else request = require('request');
 var ENDPOINT = 'http://www.930.com/concerts/';
 
 module.exports.load = function(callback) {
+    debug('startup');
     request(ENDPOINT, function(err, response, body) {
         if (err) throw err;
         processBody(body, callback);
@@ -35,7 +38,7 @@ function processBody(body, callback) {
         links.push('http://www.930.com' + $('a', elem).attr('href'));
     });
 
-    if (process.env.LIMIT) links = links.slice(0, process.env.LIMIT);
+    if (mylimit) links = links.slice(0, mylimit);
 
     var q = queue(process.env.SOURCE_CONCURRENCY || 1);
 

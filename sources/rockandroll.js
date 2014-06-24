@@ -6,6 +6,8 @@ var queue = require('queue-async'),
     assert = require('assert'),
     cheerio = require('cheerio');
 
+var mylimit = process.env.LIMIT || 5;
+
 /**
  * CACHE: save results to disk
  * MOCK: use results on disk
@@ -15,7 +17,6 @@ else if (process.env.MOCK) request = require('../lib/request-cached');
 else request = require('request');
 
 var ENDPOINT = 'http://www.rockandrollhoteldc.com/calendar/upcoming/';
-
 
 module.exports.load = function(callback) {
     request(ENDPOINT, function(err, response, body) {
@@ -32,7 +33,7 @@ function processBody(body, callback) {
         links.push($(elem).attr('href'));
     });
 
-    if (process.env.LIMIT || 10) links = links.slice(0, process.env.LIMIT);
+    if (mylimit) links = links.slice(0, mylimit);
 
     var q = queue(process.env.SOURCE_CONCURRENCY || 1);
     links.forEach(function(link) {

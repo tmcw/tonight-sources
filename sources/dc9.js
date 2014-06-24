@@ -5,6 +5,8 @@ var queue = require('queue-async'),
     debug = require('debug')(VENUEID),
     cheerio = require('cheerio');
 
+var mylimit = process.env.LIMIT || 5;
+
 /**
  * CACHE: save results to disk
  * MOCK: use results on disk
@@ -17,6 +19,7 @@ var ENDPOINT = 'http://www.dcnine.com/calendar/';
 
 // request(ENDPOINT, onload);
 module.exports.load = function(callback) {
+    debug('startup');
     request(ENDPOINT, function(err, response, body) {
         if (err) throw err;
         processBody(body, callback);
@@ -32,7 +35,7 @@ function processBody(body, callback) {
         links.push($('a', elem).attr('href'));
     });
 
-    if (process.env.LIMIT || 10) links = links.slice(0, process.env.LIMIT);
+    if (mylimit) links = links.slice(0, mylimit);
 
     var q = queue(process.env.SOURCE_CONCURRENCY || 1);
 

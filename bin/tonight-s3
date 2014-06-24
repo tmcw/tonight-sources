@@ -12,6 +12,15 @@ var queue = require('queue-async'),
 
 debug('tonight-s3 startup');
 
+var sources = [
+    require('../sources/dc9'),
+    require('../sources/blackcat'),
+    require('../sources/rockandroll'),
+    require('../sources/velvetlounge'),
+    require('../sources/930'),
+    require('../sources/ustreet')
+];
+
 if (argv.now) {
     pull();
 } else {
@@ -34,14 +43,6 @@ var bucketConfig = {
     }
 };
 
-var sources = [
-    require('../sources/dc9'),
-    require('../sources/blackcat'),
-    require('../sources/rockandroll'),
-    require('../sources/velvetlounge'),
-    require('../sources/930'),
-    require('../sources/ustreet')
-];
 
 function pull() {
     var q = queue(2);
