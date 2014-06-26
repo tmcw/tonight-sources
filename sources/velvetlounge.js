@@ -17,7 +17,9 @@ else request = require('request');
 var ENDPOINT = 'http://velvetloungedc.com/events/';
 
 module.exports.load = function(callback) {
+    debug('startup');
     request(ENDPOINT, function(err, response, body) {
+        debug('loaded');
         if (err) throw err;
         callback(null, processBody(body));
     });

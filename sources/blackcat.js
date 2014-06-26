@@ -21,7 +21,10 @@ var ENDPOINT = 'http://www.blackcatdc.com/schedule.html';
 module.exports.load = function(callback) {
     debug('startup');
     request(ENDPOINT, function(err, response, body) {
-        if (err) throw err;
+        if (err) {
+            debug('error' + err);
+            callback(err, null);
+        }
         processBody(body, callback);
     });
 }
