@@ -50,11 +50,11 @@ function parseShowBody($, elem) {
         support = $('.event-content-wrap h3', elem).text().trim(),
         date = $('.time-details', elem).text().trim();
 
-
     var details = $('.event-list-details .event-details-wrap dl', elem);
 
     var detObj = {};
     var thisPt;
+
     $('dd, dt', details).each(function(i, elem) {
         if (elem.name === 'dt') thisPt = $(elem).text().trim();
         else {
@@ -62,9 +62,47 @@ function parseShowBody($, elem) {
         }
     });
 
-    var prices = [];
+    var prices = [], soldout = false;
+
+    if (detObj['Admission:']) {
+        if (detObj['Admission:'].match(/SOLD OUT/)) {
+            soldout = true;
+        }
+        var pts = detObj['Admission:'].split('\n').map(function(s) {
+            return s.trim();
+        }).forEach(function(adm) {
+            var dol = adm.match(/\$([\d\.]+)/), dollars = null;
+            if (dol && dol.length) {
+                dollars = parseInt(dol[1], 10);
+            }
+            if (adm.match(/in advance/g)) {
+                prices.push({
+                    label: 'advance',
+                    price: dollars
+                });
+            } else if (adm.match(/day of show/g)) {
+                prices.push({
+                    label: 'door',
+                    price: dollars
+                });
+            }
+        });
+    }
+
     var times = [];
-    var minage = [];
+
+    if (detObj['Date:']) {
+        // Jul 30, 2014 • 7:00 pm
+        var d = moment(detObj['Date:'], 'MMM DD, YYYY • hh:mm a');
+        if (d.isValid()) {
+            times.push({
+                label: 'doors',
+                stamp: +d.toDate()
+            });
+        }
+    }
+
+    var minage = 0;
 
     var youtube = [],
         soundcloud = [];
@@ -74,15 +112,6 @@ function parseShowBody($, elem) {
     $('a', elem).each(function(i, elem) {
         var href = $(elem).attr('href') || '';
         if (href.match(/ticketfly/)) tickets = href;
-    });
-
-    times = times.map(function(time) {
-        var rmday = date.replace(/^(\w+)\s/, '').trim();
-        return {
-            label: time[0],
-            formatted: time[1],
-            stamp: +moment(rmday + ' ' + time[1], 'MMM D h:mma').toDate()
-        };
     });
 
     return {
@@ -95,6 +124,7 @@ function parseShowBody($, elem) {
         youtube: youtube,
         supporters: [support],
         soundcloud: soundcloud,
+        soldout: soldout,
         venue_id: VENUEID
     };
 }
