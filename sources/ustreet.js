@@ -19,8 +19,13 @@ var ENDPOINT = 'http://www.ustreetmusichall.com/calendar/';
 
 // request(ENDPOINT, onload);
 module.exports.load = function(callback) {
+    debug('startup');
     request(ENDPOINT, function(err, response, body) {
-        if (err) throw err;
+        if (err) {
+            debug('error' + err);
+            callback(err);
+        }
+        debug('list load');
         processBody(body, callback);
     });
 }
@@ -58,7 +63,10 @@ function getShow(link, callback) {
     request(link, showload);
 
     function showload(err, response, body) {
-        if (err) throw err;
+        if (err) {
+            debug('err' + err);
+            return callback(err);
+        }
         callback(null, {
             body: body,
             url: link
