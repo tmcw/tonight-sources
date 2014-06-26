@@ -25,24 +25,11 @@ if (argv.now) {
     pull();
 } else {
     // fires at 10:15am every day
-    var cron = '0 0 * * * *',
-        s = later.parse.cron(cron);
+    var s = later.parse.recur().every(1).hour();
     later.setInterval(pull, s);
 }
 
-AWS.config.update({
-    accessKeyId: process.env.TMCW_AWS_ACCESS_KEY,
-    secretAccessKey: process.env.TMCW_AWS_SECRET_KEY // ,
-    // region: 'us-west-2'
-});
-
-
-var bucketConfig = {
-    params: {
-        Bucket: 'dctn'
-    }
-};
-
+var bucketConfig = { params: { Bucket: 'dctn' } };
 
 function pull() {
     var q = queue(2);
@@ -69,6 +56,8 @@ function saveToday(data) { // fight the break of dawn
     var s3bucket = new AWS.S3(bucketConfig),
         key = todayStamp(),
         body = JSON.stringify(data);
+
+    debug("saving data");
 
     s3bucket.putObject({
         Key: key,
