@@ -17,13 +17,13 @@ else request = require('request');
 
 var ENDPOINT = 'http://www.ustreetmusichall.com/calendar/';
 
-// request(ENDPOINT, onload);
 module.exports.load = function(callback) {
     debug('startup');
     request(ENDPOINT, function(err, response, body) {
+        debug('load');
         if (err) {
             debug('error' + err);
-            callback(err);
+            return callback(err);
         }
         debug('list load');
         processBody(body, callback);
