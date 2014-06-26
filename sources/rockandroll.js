@@ -41,6 +41,7 @@ function processBody(body, callback) {
     });
 
     q.awaitAll(function(err, res) {
+        debug('done');
         if (err) return callback(err);
         var events = res.map(parseShow);
         callback(null, events);

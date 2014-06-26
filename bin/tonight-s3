@@ -17,8 +17,8 @@ var sources = [
     require('../sources/blackcat'),
     require('../sources/rockandroll'),
     require('../sources/velvetlounge'),
-    require('../sources/930'),
-    require('../sources/ustreet')
+    // require('../sources/930'),
+    require('../sources/ustreet'),
 ];
 
 if (argv.now) {

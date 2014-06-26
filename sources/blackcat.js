@@ -19,6 +19,7 @@ var ENDPOINT = 'http://www.blackcatdc.com/schedule.html';
 // request(ENDPOINT, onload);
 //
 module.exports.load = function(callback) {
+    debug('startup');
     request(ENDPOINT, function(err, response, body) {
         if (err) throw err;
         processBody(body, callback);
@@ -42,6 +43,7 @@ function processBody(body, callback) {
     });
 
     q.awaitAll(function(err, res) {
+        debug('done');
         var events = res.map(parseShow);
         callback(null, events);
     });
