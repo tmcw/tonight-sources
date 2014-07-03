@@ -23,12 +23,11 @@
     "debug": "~1.0.2",
     "later": "~1.1.6",
     "minimist": "~0.2.0",
-    "lodash.flatten": "~2.4.1"
-  },
-  "devDependencies": {
-    "tap": "~0.4.9",
     "lodash.flatten": "~2.4.1",
     "xtend": "~3.0.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.9"
   },
   "engines": {
     "node": "0.10.29",
