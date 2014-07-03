@@ -108,6 +108,24 @@
           38.9166845
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Reno",
+        "shortname": "Ft. Reno",
+        "id": "fortreno",
+        "address": "Fort Reno Park, Washington, DC 20016",
+        "phone": "202.355.6356",
+        "color": "rgb(44,62,80)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0791016,
+          38.9523007
+        ]
+      }
     }
   ]
 }

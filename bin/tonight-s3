@@ -5,7 +5,9 @@ var queue = require('queue-async'),
     moment = require('moment'),
     fs = require('fs'),
     later = require('later'),
-    argv = require('minimist')(process.argv.slice(2)),
+    argv = require('minimist')(process.argv.slice(2), {
+        boolean: 'now'
+    }),
     debug = require('debug')('tonight-s3'),
     flatten = require('lodash.flatten')
     http = require('http');
@@ -17,6 +19,7 @@ var sources = [
     require('../sources/blackcat'),
     require('../sources/rockandroll'),
     require('../sources/velvetlounge'),
+    require('../sources/fortreno'),
     // require('../sources/930'),
     // require('../sources/ustreet'),
 ];
@@ -53,6 +56,12 @@ function pull() {
 
 function saveToday(data) { // fight the break of dawn
 
+    if (process.env.DRY) {
+        console.log(JSON.stringify(data, null, 2));
+        return;
+    }
+
+
     var s3bucket = new AWS.S3(bucketConfig),
         key = todayStamp(),
         body = JSON.stringify(data);
@@ -78,10 +87,15 @@ function todayStamp() {
 }
 
 function inTimeRange(show) {
+    var now = moment();
+    if (argv.when) {
+        now = moment(argv.when, 'YYYYMMDD');
+        console.log('showing dates for ', now.format());
+    }
     if (show.times && show.times.length) {
         var date = show.times[0].stamp;
-        var today_start = moment().startOf('day');
-        var today_end = moment().endOf('day');
+        var today_start = now.clone().startOf('day');
+        var today_end = now.clone().endOf('day');
         return (date >= +today_start.toDate() && date <= +today_end.toDate());
     }
 }

@@ -27,7 +27,8 @@
   },
   "devDependencies": {
     "tap": "~0.4.9",
-    "lodash.flatten": "~2.4.1"
+    "lodash.flatten": "~2.4.1",
+    "xtend": "~3.0.0"
   },
   "engines": {
     "node": "0.10.29",
