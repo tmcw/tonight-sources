@@ -112,7 +112,7 @@ function parseShowBody(body) {
         return {
             label: time[0],
             formatted: time[1],
-            stamp: +moment(rmday + ' ' + time[1], 'MMM D h:mma').toDate()
+            stamp: +moment.utc(rmday + ' ' + time[1], 'MMM D h:mma').toDate()
         };
     });
 

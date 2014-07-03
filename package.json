@@ -24,10 +24,13 @@
     "later": "~1.1.6",
     "minimist": "~0.2.0",
     "lodash.flatten": "~2.4.1",
-    "xtend": "~3.0.0"
+    "xtend": "~3.0.0",
+    "envify": "~1.2.1",
+    "react": "~0.10.0"
   },
   "devDependencies": {
-    "tap": "~0.4.9"
+    "tap": "~0.4.9",
+    "node-jsx": "~0.10.0"
   },
   "engines": {
     "node": "0.10.29",

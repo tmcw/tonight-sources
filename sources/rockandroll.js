@@ -91,7 +91,7 @@ function parseShowBody(body) {
         var time = $('.date_right', row).text().trim();
         times.push({
             time: time,
-            stamp: +moment(date + ' ' + time, 'ddd MMM D h:mma').toDate(),
+            stamp: +moment.utc(date + ' ' + time, 'ddd MMM D h:mma').toDate(),
             label: $('.date_left', row).text().trim()
         });
     });

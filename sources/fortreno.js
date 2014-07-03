@@ -22,7 +22,7 @@ var renoDefaults = {
 shows.push(xtend({
   "times": [{
     "time": "7:00 pm",
-    "stamp": +(moment('7:00pm JULY 7 2014', 'h:mma MMM D YYYY').toDate()),
+    "stamp": +(moment.utc('7:00pm JULY 7 2014', 'h:mma MMM D YYYY').toDate()),
     "label": "SHOW"
   }],
   "title": "CAPTIVATORS & Malatese",
@@ -32,7 +32,7 @@ shows.push(xtend({
 shows.push(xtend({
   "times": [{
     "time": "7:00 pm",
-    "stamp": +(moment('7:00pm JULY 10 2014', 'h:mma MMM D YYYY').toDate()),
+    "stamp": +(moment.utc('7:00pm JULY 10 2014', 'h:mma MMM D YYYY').toDate()),
     "label": "SHOW"
   }],
   "title": "Peanut Butter & Dave + Golden Looks + Calavera Skull",
@@ -42,7 +42,7 @@ shows.push(xtend({
 shows.push(xtend({
   "times": [{
     "time": "7:00 pm",
-    "stamp": +(moment('7:00pm JULY 14 2014', 'h:mma MMM D YYYY').toDate()),
+    "stamp": +(moment.utc('7:00pm JULY 14 2014', 'h:mma MMM D YYYY').toDate()),
     "label": "SHOW"
   }],
   "title": "BABY BRY BRY & THE APOLOGISTS + ALONERS + TIGER HORSE",
@@ -52,7 +52,7 @@ shows.push(xtend({
 shows.push(xtend({
   "times": [{
     "time": "7:00 pm",
-    "stamp": +(moment('7:00pm JULY 17 2014', 'h:mma MMM D YYYY').toDate()),
+    "stamp": +(moment.utc('7:00pm JULY 17 2014', 'h:mma MMM D YYYY').toDate()),
     "label": "SHOW"
   }],
   "title": "PRIESTS + SOTANO + PUFF PIECES",
@@ -62,7 +62,7 @@ shows.push(xtend({
 shows.push(xtend({
   "times": [{
     "time": "7:00 pm",
-    "stamp": +(moment('7:00pm JULY 21 2014', 'h:mma MMM D YYYY').toDate()),
+    "stamp": +(moment.utc('7:00pm JULY 21 2014', 'h:mma MMM D YYYY').toDate()),
     "label": "SHOW"
   }],
   "title": "ALARMS & CONTROLS + TALK IT + DISSONANCE",
@@ -72,7 +72,7 @@ shows.push(xtend({
 shows.push(xtend({
   "times": [{
     "time": "7:00 pm",
-    "stamp": +(moment('7:00pm JULY 24 2014', 'h:mma MMM D YYYY').toDate()),
+    "stamp": +(moment.utc('7:00pm JULY 24 2014', 'h:mma MMM D YYYY').toDate()),
     "label": "SHOW"
   }],
   "title": "TITLE TRACKS + THE EFFECTS + MYRRH MYRRH",
@@ -83,7 +83,7 @@ shows.push(xtend({
 shows.push(xtend({
   "times": [{
     "time": "7:00 pm",
-    "stamp": +(moment('7:00pm JULY 29 2014', 'h:mma MMM D YYYY').toDate()),
+    "stamp": +(moment.utc('7:00pm JULY 29 2014', 'h:mma MMM D YYYY').toDate()),
     "label": "SHOW"
   }],
   "title": "BLACK SPARKS + STEREOSLEEP + THE RAISED BY WOLVES",
@@ -93,7 +93,7 @@ shows.push(xtend({
 shows.push(xtend({
   "times": [{
     "time": "7:00 pm",
-    "stamp": +(moment('7:00pm JULY 31 2014', 'h:mma MMM D YYYY').toDate()),
+    "stamp": +(moment.utc('7:00pm JULY 31 2014', 'h:mma MMM D YYYY').toDate()),
     "label": "SHOW"
   }],
   "title": "GIVE + PROTECT U",

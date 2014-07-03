@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+process.env.DEBUG = true;
+require(process.argv[2]).load(function(err, res) {
+    console.log(JSON.stringify(res, null, 2));
+});

@@ -12,6 +12,22 @@ var queue = require('queue-async'),
     flatten = require('lodash.flatten')
     http = require('http');
 
+    AWS.config.update({
+        accessKeyId: process.env.AWS_ACCESS_KEY,
+        secretAccessKey: process.env.AWS_SECRET_KEY
+    });
+
+var bucketConfig = { params: { Bucket: 'dctn' } },
+    s3bucket = new AWS.S3(bucketConfig);
+
+s3bucket.putObject({
+        Key: 'last-run',
+        Body: (+new Date()).toString()
+    }, function(err, data) {
+        if (err) throw err;
+        else { console.log(arguments); }
+    });
+
 debug('tonight-s3 startup');
 
 var sources = [
@@ -27,12 +43,12 @@ var sources = [
 if (argv.now) {
     pull();
 } else {
-    // fires at 10:15am every day
-    var s = later.parse.recur().every(4).hour();
+    // confusingly means: 'the tenth minute of every hour'
+    // cron coding is silly and annoying.
+    var s = later.parse.recur().every(10).minute();
     later.setInterval(pull, s);
 }
 
-var bucketConfig = { params: { Bucket: 'dctn' } };
 
 function pull() {
     var q = queue(2);
@@ -61,9 +77,7 @@ function saveToday(data) { // fight the break of dawn
         return;
     }
 
-
-    var s3bucket = new AWS.S3(bucketConfig),
-        key = todayStamp(),
+    var key = todayStamp(),
         body = JSON.stringify(data);
 
     debug("saving data");
