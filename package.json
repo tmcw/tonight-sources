@@ -26,11 +26,13 @@
     "lodash.flatten": "~2.4.1",
     "xtend": "~3.0.0",
     "envify": "~1.2.1",
-    "react": "~0.10.0"
+    "react": "~0.10.0",
+    "twit": "~1.1.15"
   },
   "devDependencies": {
     "tap": "~0.4.9",
-    "node-jsx": "~0.10.0"
+    "node-jsx": "~0.10.0",
+    "oauth": "~0.9.12"
   },
   "engines": {
     "node": "0.10.29",
