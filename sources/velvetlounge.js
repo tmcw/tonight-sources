@@ -46,8 +46,13 @@ module.exports.parseShowBody = parseShowBody;
 module.exports.processBody = processBody;
 
 function parseShowBody($, elem) {
-    var title = $('.custom-event-title h2', elem).text().trim(),
-        date = $('.time-details', elem).text().trim();
+    var title = $('.custom-event-title h2', elem).text().trim();
+    var datepts = $('.time-details span', elem);
+
+    var dp = [];
+    datepts.each(function(i, elem) {
+        dp.push($(elem).text().trim());
+    });
 
     var costStageDoors = $('.age-restriction', elem)
         .text().trim();
@@ -62,11 +67,15 @@ function parseShowBody($, elem) {
     var tickets = null;
 
     times = times.map(function(time) {
-        var rmday = date.replace(/^(\w+)\s/, '').trim();
+        var rmday = dp.join(' ').replace(/^(\w+)\s/, '').trim();
+        var mom = moment.utc(rmday + ' ' + time[1], 'dddd DD MMM h:mma');
+        if (!mom.isValid()) {
+            debug('invalid date:' + (rmday + ' ' + time[1]));
+        }
         return {
             label: time[0],
             formatted: time[1],
-            stamp: +moment.utc(rmday + ' ' + time[1], 'MMM D h:mma').toDate()
+            stamp: +mom.toDate()
         };
     });
 
@@ -74,7 +83,7 @@ function parseShowBody($, elem) {
         times: times,
         title: title,
         prices: prices,
-        date: date,
+        date: dp.join(' ').trim(),
         minage: minage,
         tickets: tickets,
         youtube: youtube,
