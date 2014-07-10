@@ -11,3 +11,5 @@ https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-dok
 ## config
 
     dokku config:set tonight-sources
+
+    dokku config tonight-sources
