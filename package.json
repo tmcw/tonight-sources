@@ -12,7 +12,6 @@
   ],
   "author": "Tom MacWright",
   "license": "ISC",
-  "private": true,
   "dependencies": {
     "request": "~2.36.0",
     "cheerio": "~0.16.0",
