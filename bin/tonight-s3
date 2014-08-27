@@ -12,10 +12,14 @@ var queue = require('queue-async'),
     flatten = require('lodash.flatten')
     http = require('http');
 
-    AWS.config.update({
-        accessKeyId: process.env.AWS_ACCESS_KEY,
-        secretAccessKey: process.env.AWS_SECRET_KEY
-    });
+AWS.config.update({
+    accessKeyId: process.env.AWS_ACCESS_KEY,
+    secretAccessKey: process.env.AWS_SECRET_KEY
+});
+
+process.on('uncaughtException', function(err) {
+    debug('Caught exception: ' + err);
+});
 
 var bucketConfig = { params: { Bucket: 'dctn' } },
     s3bucket = new AWS.S3(bucketConfig);
@@ -83,7 +87,7 @@ function saveToday(data) { // fight the break of dawn
     var key = todayStamp(),
         body = JSON.stringify(data);
 
-    debug("saving data");
+    debug('saving data');
 
     s3bucket.putObject({
         Key: key,

@@ -21,8 +21,12 @@ var ENDPOINT = 'http://www.dcnine.com/calendar/';
 module.exports.load = function(callback) {
     debug('startup');
     request(ENDPOINT, function(err, response, body) {
-        if (err) throw err;
-        processBody(body, callback);
+        if (err) return callback(err);
+        try {
+            processBody(body, callback);
+        } catch(e) {
+            return callback(err);
+        }
     });
 }
 
