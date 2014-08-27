@@ -10,9 +10,13 @@ var queue = require('queue-async'),
  * CACHE: save results to disk
  * MOCK: use results on disk
  */
-if (process.env.SAVE) request = require('../lib/request-save');
-else if (process.env.MOCK) request = require('../lib/request-cached');
-else request = require('request');
+if (process.env.SAVE) {
+    request = require('../lib/request-save');
+} else if (process.env.MOCK) {
+    request = require('../lib/request-cached')
+} else {
+    request = require('request');
+}
 
 var ENDPOINT = 'http://www.sixthandi.org/events/category/arts-entertainment/upcoming/';
 
@@ -20,14 +24,12 @@ module.exports.load = function(callback) {
     debug('startup');
     request(ENDPOINT, function(err, response, body) {
         debug('loaded');
-        if (err) throw err;
+        if (err) {
+            throw err;
+        }
         callback(null, processBody(body));
     });
 }
-
-module.exports.load(function(err, res) {
-    console.error(JSON.stringify(res, null, 2));
-});
 
 function processBody(body) {
     var $ = cheerio.load(body);
@@ -56,13 +58,14 @@ function parseShowBody($, elem) {
     var thisPt;
 
     $('dd, dt', details).each(function(i, elem) {
-        if (elem.name === 'dt') thisPt = $(elem).text().trim();
-        else {
+        if (elem.name === 'dt')
+            thisPt = $(elem).text().trim(); else {
             detObj[thisPt] = $(elem).text().trim();
         }
     });
 
-    var prices = [], soldout = false;
+    var prices = [],
+        soldout = false;
 
     if (detObj['Admission:']) {
         if (detObj['Admission:'].match(/SOLD OUT/)) {
@@ -71,7 +74,8 @@ function parseShowBody($, elem) {
         var pts = detObj['Admission:'].split('\n').map(function(s) {
             return s.trim();
         }).forEach(function(adm) {
-            var dol = adm.match(/\$([\d\.]+)/), dollars = null;
+            var dol = adm.match(/\$([\d\.]+)/),
+                dollars = null;
             if (dol && dol.length) {
                 dollars = parseInt(dol[1], 10);
             }
@@ -111,7 +115,9 @@ function parseShowBody($, elem) {
 
     $('a', elem).each(function(i, elem) {
         var href = $(elem).attr('href') || '';
-        if (href.match(/ticketfly/)) tickets = href;
+        if (href.match(/ticketfly/)) {
+            tickets = href;
+        }
     });
 
     return {
@@ -138,7 +144,9 @@ function parsePrices(str) {
             type: 'doors',
             price: parseFloat(price[1])
         }];
-    } else { return []; }
+    } else {
+        return [];
+    }
 }
 
 function parseTimes(str) {

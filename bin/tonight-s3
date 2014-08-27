@@ -36,6 +36,8 @@ var sources = [
     require('../sources/rockandroll'),
     require('../sources/velvetlounge'),
     require('../sources/fortreno'),
+    require('../sources/hamilton'),
+    require('../sources/sixthandi'),
     // require('../sources/930'),
     // require('../sources/ustreet'),
 ];
@@ -59,6 +61,7 @@ function pull() {
     });
 
     q.awaitAll(function(err, res) {
+        console.log(res);
         debug('done');
         if (err) debug('with error: ' + err.toString());
         if (err) throw err;
