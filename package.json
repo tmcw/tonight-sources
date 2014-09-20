@@ -26,7 +26,8 @@
     "xtend": "~3.0.0",
     "envify": "~1.2.1",
     "react": "~0.10.0",
-    "twit": "~1.1.15"
+    "twit": "~1.1.15",
+    "raven": "~0.7.2"
   },
   "devDependencies": {
     "tap": "~0.4.9",

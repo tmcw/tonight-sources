@@ -9,8 +9,13 @@ var queue = require('queue-async'),
         boolean: 'now'
     }),
     debug = require('debug')('tonight-s3'),
-    flatten = require('lodash.flatten')
+    flatten = require('lodash.flatten'),
     http = require('http');
+
+var raven = require('raven');
+
+var client = new raven.Client('https://b34a84c2df7a495bb4fc70f518de2350:04d84f4c844440d1ae1c242340c94764@app.getsentry.com/30511');
+client.patchGlobal();
 
 AWS.config.update({
     accessKeyId: process.env.AWS_ACCESS_KEY,
