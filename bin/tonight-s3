@@ -39,9 +39,9 @@ var sources = [
     require('../sources/blackcat'),
     require('../sources/rockandroll'),
     require('../sources/velvetlounge'),
-    require('../sources/fortreno'),
-    require('../sources/hamilton'),
-    require('../sources/sixthandi'),
+    // require('../sources/fortreno'),
+    // require('../sources/hamilton'),
+    // require('../sources/sixthandi'),
     // require('../sources/930'),
     // require('../sources/ustreet'),
 ];
